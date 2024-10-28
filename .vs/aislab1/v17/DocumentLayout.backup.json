@@ -1,7 +1,62 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\winformsapp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\winformsapp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\winformsapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\winformsapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\winformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|solutionrelative:aislab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\winformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_\u0421\u0415\u0420\u0413\u0415\u0419_SOURCE_REPOS_AISLAB1_WINFORMSAPP_DATABASE1.MDF/True/SqlTable/dbo.Students.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD544880-28F1-42FD-95FE-B3EA2FE2EAC6}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\businesslogic\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD544880-28F1-42FD-95FE-B3EA2FE2EAC6}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F202038-508E-4B4B-9E82-1AF73EC19903}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\dataaccesslayer\\ef\\entityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F202038-508E-4B4B-9E82-1AF73EC19903}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\ef\\entityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F202038-508E-4B4B-9E82-1AF73EC19903}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\dataaccesslayer\\dapper\\dapperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F202038-508E-4B4B-9E82-1AF73EC19903}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dapper\\dapperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|solutionrelative:aislab1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\winformsapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/DATABASE1_2cb672edce68437fb8c0facc74d4c431/True/SqlTable/dbo.Students.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +64,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +77,179 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T15:55:37.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Form2.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\Form2.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Form2.cs",
+              "RelativeToolTip": "WinFormsApp\\Form2.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwF4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:16:07.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.Students [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_\u0421\u0415\u0420\u0413\u0415\u0419_SOURCE_REPOS_AISLAB1_WINFORMSAPP_DATABASE1.MDF/True/SqlTable/dbo.Students.sql",
+              "ToolTip": "dbo.Students [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-28T17:12:59.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\Program.cs",
+              "RelativeDocumentMoniker": "aislab1\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\Program.cs",
+              "RelativeToolTip": "aislab1\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:56:19.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Form2.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\Form2.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WinFormsApp\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T15:57:41.509Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Form3.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\Form3.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "WinFormsApp\\Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T15:57:43.705Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Form3.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\Form3.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Form3.cs*",
+              "RelativeToolTip": "WinFormsApp\\Form3.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wFEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T18:01:28.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WinFormsApp\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:36:25.973Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DapperRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\DataAccessLayer\\Dapper\\DapperRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Dapper\\DapperRepository.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\DataAccessLayer\\Dapper\\DapperRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Dapper\\DapperRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:07:38.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\App.config",
+              "RelativeDocumentMoniker": "aislab1\\App.config",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\App.config",
+              "RelativeToolTip": "aislab1\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-28T16:09:05.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Logic.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\BusinessLogic\\Logic.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Logic.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\BusinessLogic\\Logic.cs",
+              "RelativeToolTip": "BusinessLogic\\Logic.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAADwv1UAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T15:53:04.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\DataAccessLayer\\EF\\EntityRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EF\\EntityRepository.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\DataAccessLayer\\EF\\EntityRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\EF\\EntityRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:23:02.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\App.config",
+              "RelativeDocumentMoniker": "WinFormsApp\\App.config",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\App.config",
+              "RelativeToolTip": "WinFormsApp\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-28T16:08:23.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.Students [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/DATABASE1_2cb672edce68437fb8c0facc74d4c431/True/SqlTable/dbo.Students.sql",
+              "ToolTip": "dbo.Students [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-28T16:10:22.863Z",
+              "EditorCaption": ""
             }
           ]
         }

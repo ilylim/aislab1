@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.AddStudentButton = new System.Windows.Forms.Button();
             this.RemoveStudentButton = new System.Windows.Forms.Button();
             this.ChangeStudentButton = new System.Windows.Forms.Button();
@@ -42,18 +42,18 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.logicBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.studentsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.logicBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logicBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logicBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // AddStudentButton
             // 
             this.AddStudentButton.Location = new System.Drawing.Point(46, 12);
             this.AddStudentButton.Name = "AddStudentButton";
-            this.AddStudentButton.Size = new System.Drawing.Size(175, 42);
+            this.AddStudentButton.Size = new System.Drawing.Size(175, 48);
             this.AddStudentButton.TabIndex = 1;
             this.AddStudentButton.Text = "Добавить нового студента";
             this.AddStudentButton.UseVisualStyleBackColor = true;
@@ -61,9 +61,9 @@
             // 
             // RemoveStudentButton
             // 
-            this.RemoveStudentButton.Location = new System.Drawing.Point(46, 76);
+            this.RemoveStudentButton.Location = new System.Drawing.Point(46, 74);
             this.RemoveStudentButton.Name = "RemoveStudentButton";
-            this.RemoveStudentButton.Size = new System.Drawing.Size(175, 38);
+            this.RemoveStudentButton.Size = new System.Drawing.Size(175, 44);
             this.RemoveStudentButton.TabIndex = 2;
             this.RemoveStudentButton.Text = "Удалить студента";
             this.RemoveStudentButton.UseVisualStyleBackColor = true;
@@ -71,9 +71,9 @@
             // 
             // ChangeStudentButton
             // 
-            this.ChangeStudentButton.Location = new System.Drawing.Point(46, 138);
+            this.ChangeStudentButton.Location = new System.Drawing.Point(46, 132);
             this.ChangeStudentButton.Name = "ChangeStudentButton";
-            this.ChangeStudentButton.Size = new System.Drawing.Size(175, 38);
+            this.ChangeStudentButton.Size = new System.Drawing.Size(175, 44);
             this.ChangeStudentButton.TabIndex = 3;
             this.ChangeStudentButton.Text = "Изменить студента";
             this.ChangeStudentButton.UseVisualStyleBackColor = true;
@@ -120,30 +120,30 @@
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(46, 195);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Специальности";
-            this.chart1.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Специальности";
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(732, 250);
             this.chart1.TabIndex = 14;
             this.chart1.Text = "chart1";
-            title1.Name = "Title1";
-            title1.Text = "Разбиение студентов на специальности";
-            this.chart1.Titles.Add(title1);
-            // 
-            // logicBindingSource
-            // 
-            this.logicBindingSource.DataSource = typeof(BusinessLogic.Logic);
+            title2.Name = "Title1";
+            title2.Text = "Разбиение студентов на специальности";
+            this.chart1.Titles.Add(title2);
             // 
             // studentsBindingSource
             // 
             this.studentsBindingSource.DataMember = "Students";
+            // 
+            // logicBindingSource
+            // 
+            this.logicBindingSource.DataSource = typeof(BusinessLogic.Logic);
             // 
             // Form1
             // 
@@ -158,8 +158,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logicBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logicBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -23,8 +23,8 @@ C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\EntityFramework
 C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\DataAccessLayer.pdb
 C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\DataAccessLayer.dll.config
 C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\Model.dll.config
-C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\Database1.mdf
-C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\Database1_log.ldf
 C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\Dapper.dll
 C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\Dapper.xml
 C:\Users\Сергей\source\repos\aislab1\WinFormsApp\obj\Debug\WinForms.79E25943.Up2Date
+C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\Database1.mdf
+C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\Database1_log.ldf

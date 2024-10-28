@@ -14,7 +14,7 @@ namespace BusinessLogic
         public Dictionary<int, Student> Students { set; get; } = new Dictionary<int, Student>(); //Словарь со студентами (id, student)
         public List<string> specialities = new List<string>() { "ИСИТ", "ИБ", "ИВТ", "ПИ" }; //Коллекция специальностей
         public List<int> countStudentsSpeciality = new List<int>() { 0, 0, 0, 0 }; //Коллекция количества студентов на специальностях
-        
+
         /// <summary>
         /// Метод добавления студентов
         /// </summary>
@@ -23,17 +23,14 @@ namespace BusinessLogic
         /// <param name="speciality">специальность</param>
         public void AddStudent(string name, string group, string speciality)
         {
-            int id = GetNewId();
             Student student = new Student()
             {
-                Id = id,
                 Name = name,
                 Group = group,
                 Speciality = speciality
             };
-
-            Students.Add(id, student);
             repository.Create(student);
+            Students.Add(student.Id, student);
         }
 
         /// <summary>
@@ -56,6 +53,7 @@ namespace BusinessLogic
         public void GetAllDictionary()
         {
             List<Student> allStudents = repository.GetAll().ToList();
+            Students.Clear();
             foreach(Student student in allStudents)
             {
                 Students.Add((int)student.Id, student);
@@ -66,15 +64,15 @@ namespace BusinessLogic
         /// Метод поиска свободного id 
         /// </summary>
         /// <returns>id последнего добавленного студента + 1</returns>
-        public int GetNewId()
+        public int GetLastId()
         {
             if(Students.Count() != 0)
             {
-                return repository.GetAll().Last().Id + 1;
+                return Students.Last().Key;
             }
             else
             {
-                return 1;
+                return 0;
             }
         }
 

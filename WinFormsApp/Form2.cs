@@ -26,13 +26,7 @@ namespace WinFormsApp
                 LogicDTO.Logic.AddStudent(textBox1.Text, textBox2.Text, comboBox1.Text);
 
                 Form1 main = this.Owner as Form1;
-                ListViewItem item = new ListViewItem(Convert.ToString(main.id)); //Добавление студента в listView
-                item.SubItems.Add(textBox1.Text);
-                item.SubItems.Add(textBox2.Text);
-                item.SubItems.Add(comboBox1.Text);
-                main.listView.Items.Add(item);
-                main.RefreshChart();
-                main.id++;
+                main.RefreshListView();
 
                 this.Close();
             }
@@ -49,7 +43,7 @@ namespace WinFormsApp
         /// <param name="e"></param>
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (textBox1.Text.Length > 0 && textBox2.Text.Length > 0 && comboBox1.Text.Length > 0)
+            if (!string.IsNullOrWhiteSpace(textBox1.Text) && textBox1.Text.Length > 0 && textBox2.Text.Length > 0 && comboBox1.Text.Length > 0)
             {
                 AddButton.Enabled = true;
             }
@@ -66,7 +60,7 @@ namespace WinFormsApp
         /// <param name="e"></param>
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            if (textBox1.Text.Length > 0 && textBox2.Text.Length > 0 && comboBox1.Text.Length > 0)
+            if (!string.IsNullOrWhiteSpace(textBox1.Text) && textBox1.Text.Length > 0 && textBox2.Text.Length > 0 && comboBox1.Text.Length > 0)
             {
                 AddButton.Enabled = true;
             }
@@ -83,7 +77,7 @@ namespace WinFormsApp
         /// <param name="e"></param>
         private void comboBox1_TextChanged(object sender, EventArgs e)
         {
-            if (textBox1.Text.Length > 0 && textBox2.Text.Length > 0 && comboBox1.Text.Length > 0)
+            if (!string.IsNullOrWhiteSpace(textBox1.Text) && textBox1.Text.Length > 0 && textBox2.Text.Length > 0 && comboBox1.Text.Length > 0)
             {
                 AddButton.Enabled = true;
             }
@@ -100,7 +94,7 @@ namespace WinFormsApp
         /// <param name="e"></param>
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!Regex.Match(e.KeyChar.ToString(), @"[а-яА-Я]|[a-zA-Z]").Success && e.KeyChar != 8)
+            if (!Regex.Match(e.KeyChar.ToString(), @"[а-яА-Я]|[a-zA-Z]").Success && e.KeyChar != 8 && e.KeyChar != 32)
             {
                 e.Handled = true;
             }

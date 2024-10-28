@@ -31,11 +31,7 @@ namespace WinFormsApp
             LogicDTO.Logic.ChangeStudent(idChangedStudent,
                 textBox1.Text, textBox2.Text, comboBox1.Text);
 
-            int index = main.listView.Items.IndexOf(main.listView.SelectedItems[0]);
-            main.listView.Items[index].SubItems[1].Text = textBox1.Text;
-            main.listView.Items[index].SubItems[2].Text = textBox2.Text;
-            main.listView.Items[index].SubItems[3].Text = comboBox1.Text;
-            main.RefreshChart();
+            main.RefreshListView();
 
             this.Close();
         }
@@ -47,7 +43,7 @@ namespace WinFormsApp
         /// <param name="e"></param>
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (textBox1.Text.Length > 0 && textBox2.Text.Length > 0)
+            if (!string.IsNullOrWhiteSpace(textBox1.Text) && textBox1.Text.Length > 0 && textBox2.Text.Length > 0)
             {
                 button1.Enabled = true;
             }
@@ -64,7 +60,7 @@ namespace WinFormsApp
         /// <param name="e"></param>
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            if (textBox1.Text.Length > 0 && textBox2.Text.Length > 0)
+            if (!string.IsNullOrWhiteSpace(textBox1.Text) && textBox1.Text.Length > 0 && textBox2.Text.Length > 0)
             {
                 button1.Enabled = true;
             }
@@ -81,7 +77,7 @@ namespace WinFormsApp
         /// <param name="e"></param>
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!Regex.Match(e.KeyChar.ToString(), @"[а-яА-Я]|[a-zA-Z]").Success && e.KeyChar != 8)
+            if (!Regex.Match(e.KeyChar.ToString(), @"[а-яА-Я]|[a-zA-Z]").Success && e.KeyChar != 8 && e.KeyChar != 32)
             {
                 e.Handled = true;
             }

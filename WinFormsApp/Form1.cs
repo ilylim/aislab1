@@ -1,5 +1,6 @@
 ﻿using BusinessLogic;
 using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
@@ -7,7 +8,6 @@ namespace WinFormsApp
 {
     public partial class Form1 : Form
     {
-        public int id {  get; set; }
         public Form1()
         {
             InitializeComponent();
@@ -15,7 +15,6 @@ namespace WinFormsApp
             ChangeStudentButton.Enabled = false;
             LogicDTO.Logic = new Logic();
             LogicDTO.Logic.GetAllDictionary();
-            this.id = LogicDTO.Logic.GetNewId();
             RefreshListView();
         }
 
@@ -36,7 +35,8 @@ namespace WinFormsApp
         /// </summary>
         public void RefreshListView()
         {
-            foreach(var itemData in LogicDTO.Logic.GetAllStudents())
+            listView.Items.Clear();
+            foreach (var itemData in LogicDTO.Logic.GetAllStudents())
             {
                 ListViewItem item = new ListViewItem(Convert.ToString(itemData.Item1));
                 item.SubItems.Add(itemData.Item2);
@@ -78,8 +78,7 @@ namespace WinFormsApp
             if (listView.SelectedItems.Count > 0)
             {
                 LogicDTO.Logic.RemoveStudent(Convert.ToInt32(((ListViewItem)(listView.SelectedItems[0])).SubItems[0].Text));
-                listView.Items.Remove(listView.SelectedItems[0]);
-                RefreshChart();
+                RefreshListView();
             }
             else
             {

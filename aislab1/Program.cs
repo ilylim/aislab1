@@ -14,7 +14,6 @@ namespace aislab1
             Console.OutputEncoding = Encoding.UTF8;
             Logic logic = new Logic();
             logic.GetAllDictionary();
-            List<(int, string, string, string)>studentsInfo = logic.GetAllStudents();
             bool exit = false;
             while (!exit)
             {
@@ -86,7 +85,8 @@ namespace aislab1
 
                         case 2:
                             Console.Clear();
-
+                            PrintList(logic);
+                            Console.WriteLine();
                             Console.WriteLine("Введите код студента из списка");
                             if (Int32.TryParse(Console.ReadLine(), out int codeRemovedStudent) && codeRemovedStudent > 0)
                                 if (!(logic.Students.Keys.Contains(codeRemovedStudent)))
@@ -107,6 +107,8 @@ namespace aislab1
 
                         case 3:
                             Console.Clear();
+                            PrintList(logic);
+                            Console.WriteLine();
                             Console.WriteLine("Введите код студента из списка");
                             if (Int32.TryParse(Console.ReadLine(), out int codeChangedStudent) && codeChangedStudent > 0)
                                 if (!(logic.Students.Keys.Contains(codeChangedStudent)))
@@ -116,19 +118,16 @@ namespace aislab1
                                 }
                                 else
                                 {
-                                    Console.Clear();
                                     bool exitChange = false;
                                     while (!exitChange)
                                     {
-                                        Console.Clear();
-                                        Console.WriteLine("Что изменим ?\n1. ФИО студента\n2. Группу\n3. Специальность\n4. Вернуться назад");
+                                        Console.WriteLine($"Что изменим ?\n1. ФИО студента\n2. Группу\n3. Специальность\n4. Вернуться назад");
 
                                         if (Int32.TryParse(Console.ReadLine(), out int changeCode))
                                         {
                                             switch (changeCode)
                                             {
                                                 case 1:
-                                                    Console.Clear();
                                                     Console.WriteLine("Введите новое ФИО студента");
                                                     string studentNewName = Console.ReadLine();
 
@@ -136,7 +135,6 @@ namespace aislab1
                                                     break;
 
                                                 case 2:
-                                                    Console.Clear();
                                                     Console.WriteLine("Введите новую группу студента");
                                                     string studentNewGroup = Console.ReadLine();
 
@@ -144,7 +142,6 @@ namespace aislab1
                                                     break;
 
                                                 case 3:
-                                                    Console.Clear();
                                                     Console.WriteLine("Введите новую специальность студента (ИСИТ, ИБ, ИВТ, ПИ)");
                                                     bool correctNewSpeciality = false;
                                                     while (!correctNewSpeciality)
@@ -205,78 +202,13 @@ namespace aislab1
 
                         case 4:
                             Console.Clear();
-                            studentsInfo = logic.GetAllStudents();
-                            Console.WriteLine("┌─────────────────────┬─────────────────────┬────────────────────┬────────────────────┐");
-                            Console.WriteLine("│         Id          │         ФИО         │       Группа       │   Специальность    │");
-                            Console.WriteLine("├─────────────────────┼─────────────────────┼────────────────────┼────────────────────┤");
-                            foreach (var student in studentsInfo)
-                            {
-                                Console.Write("│ {0, -20}│", student.Item1);
-                                Console.Write("{0, -20} │", student.Item2);
-                                Console.Write("{0, -20}│", student.Item3);
-                                Console.Write("{0, -20}│\n├─────────────────────┼─────────────────────┼────────────────────┼────────────────────┤\n", student.Item4);
-                            }
-                            Console.WriteLine("└─────────────────────┴─────────────────────┴────────────────────┴────────────────────┘");
+                            PrintList(logic);
                             Console.ReadKey();         
                             break;
 
                         case 5:
                             Console.Clear();
-                            logic.GetStudentsSpecialities();
-                            Console.WriteLine("╔═════════════════════════╗");
-                            int maxStudents = logic.countStudentsSpeciality.Max();
-                            List<string> chart = new List<string> { " ", " ", " ", " " };
-                            for (int i = 0; i < maxStudents; i++)
-                            {
-                                for (int countChartItem = 0; countChartItem < chart.Count; countChartItem++)
-                                {
-                                    if (chart[0] == " ")
-                                    {
-                                        if (maxStudents - i == logic.countStudentsSpeciality[0])
-                                        {
-                                            chart[0] = "█";
-                                        }
-                                    }
-                                    if (chart[1] == " ")
-                                    {
-                                        if (maxStudents - i == logic.countStudentsSpeciality[1])
-                                        {
-                                            chart[1] = "█";
-                                        }
-                                    }
-                                    if (chart[2] == " ")
-                                    {
-                                        if (maxStudents - i == logic.countStudentsSpeciality[2])
-                                        {
-                                            chart[2] = "█";
-                                        }
-                                    }
-                                    if (chart[3] == " ")
-                                    {
-                                        if (maxStudents - i == logic.countStudentsSpeciality[3])
-                                        {
-                                            chart[3] = "█";
-                                        }
-                                    }
-                                }
-
-                                if (i <= maxStudents - 1 && maxStudents - i < 10)
-                                {
-                                    Console.WriteLine($"║ {maxStudents - i}   {chart[0]}    {chart[1]}    {chart[2]}    {chart[3]}    ║");
-                                }
-
-                                else if (i <= maxStudents - 1 && maxStudents - i >= 10)
-                                {
-                                    Console.WriteLine($"║ {maxStudents - i}  {chart[0]}    {chart[1]}    {chart[2]}    {chart[3]}    ║");
-                                }
-
-                                if (maxStudents - i == 1)
-                                {
-                                    Console.WriteLine($"║ 0 -------------------   ║");
-                                }
-                            }
-                            Console.WriteLine("║   ИСИТ   ИБ  ИВТ   ПИ   ║");
-                            Console.WriteLine("╚═════════════════════════╝");
+                            PrintChart(logic);
                             Console.ReadKey();
                             break;
 
@@ -291,6 +223,83 @@ namespace aislab1
                 }
             }
         }
+        
+        static void PrintList(Logic logic)
+        {
+            Console.Clear();
+            List<(int, string, string, string)> studentsInfo = logic.GetAllStudents();
+            Console.WriteLine("┌─────────────────────┬─────────────────────┬────────────────────┬────────────────────┐");
+            Console.WriteLine("│         Id          │         ФИО         │       Группа       │   Специальность    │");
+            Console.WriteLine("├─────────────────────┼─────────────────────┼────────────────────┼────────────────────┤");
+            foreach (var student in studentsInfo)
+            {
+                Console.Write("│ {0, -20}│", student.Item1);
+                Console.Write("{0, -20} │", student.Item2);
+                Console.Write("{0, -20}│", student.Item3);
+                Console.Write("{0, -20}│\n├─────────────────────┼─────────────────────┼────────────────────┼────────────────────┤\n", student.Item4);
+            }
+            Console.WriteLine("└─────────────────────┴─────────────────────┴────────────────────┴────────────────────┘");
+        }
+
+        static void PrintChart(Logic logic)
+        {
+            logic.GetStudentsSpecialities();
+            Console.WriteLine("╔═════════════════════════╗");
+            int maxStudents = logic.countStudentsSpeciality.Max();
+            List<string> chart = new List<string> { " ", " ", " ", " " };
+            for (int i = 0; i < maxStudents; i++)
+            {
+                for (int countChartItem = 0; countChartItem < chart.Count; countChartItem++)
+                {
+                    if (chart[0] == " ")
+                    {
+                        if (maxStudents - i == logic.countStudentsSpeciality[0])
+                        {
+                            chart[0] = "█";
+                        }
+                    }
+                    if (chart[1] == " ")
+                    {
+                        if (maxStudents - i == logic.countStudentsSpeciality[1])
+                        {
+                            chart[1] = "█";
+                        }
+                    }
+                    if (chart[2] == " ")
+                    {
+                        if (maxStudents - i == logic.countStudentsSpeciality[2])
+                        {
+                            chart[2] = "█";
+                        }
+                    }
+                    if (chart[3] == " ")
+                    {
+                        if (maxStudents - i == logic.countStudentsSpeciality[3])
+                        {
+                            chart[3] = "█";
+                        }
+                    }
+                }
+
+                if (i <= maxStudents - 1 && maxStudents - i < 10)
+                {
+                    Console.WriteLine($"║ {maxStudents - i}   {chart[0]}    {chart[1]}    {chart[2]}    {chart[3]}    ║");
+                }
+
+                else if (i <= maxStudents - 1 && maxStudents - i >= 10)
+                {
+                    Console.WriteLine($"║ {maxStudents - i}  {chart[0]}    {chart[1]}    {chart[2]}    {chart[3]}    ║");
+                }
+
+                if (maxStudents - i == 1)
+                {
+                    Console.WriteLine($"║ 0 -------------------   ║");
+                }
+            }
+            Console.WriteLine("║   ИСИТ   ИБ  ИВТ   ПИ   ║");
+            Console.WriteLine("╚═════════════════════════╝");
+        }
+
         static void Main(string[] args)
         {
             Menu();
