@@ -1,0 +1,17 @@
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Model.dll
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Model.pdb
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Model.dll.config
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Dapper.dll
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Dapper.xml
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\obj\Debug\DataAcce.E67BD773.Up2Date
