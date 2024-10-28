@@ -14,8 +14,8 @@ namespace WinFormsApp
             RemoveStudentButton.Enabled = false;
             ChangeStudentButton.Enabled = false;
             LogicDTO.Logic = new Logic();
-            this.id = LogicDTO.Logic.GetNewId();
             LogicDTO.Logic.GetAllDictionary();
+            this.id = LogicDTO.Logic.GetNewId();
             RefreshListView();
         }
 
