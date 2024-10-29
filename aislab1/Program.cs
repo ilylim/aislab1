@@ -9,6 +9,9 @@ namespace aislab1
 {
     internal class Program
     {
+        /// <summary>
+        /// Метод реализации лабы через меню в консоли
+        /// </summary>
         static public void Menu()
         {
             Console.OutputEncoding = Encoding.UTF8;
@@ -224,6 +227,10 @@ namespace aislab1
             }
         }
         
+        /// <summary>
+        /// Метод вывода таблицы в консоль
+        /// </summary>
+        /// <param name="logic">бизнеслогика</param>
         static void PrintList(Logic logic)
         {
             Console.Clear();
@@ -241,6 +248,10 @@ namespace aislab1
             Console.WriteLine("└─────────────────────┴─────────────────────┴────────────────────┴────────────────────┘");
         }
 
+        /// <summary>
+        /// Метод вывода гистограммы в консоль
+        /// </summary>
+        /// <param name="logic">бизнеслогика</param>
         static void PrintChart(Logic logic)
         {
             logic.GetStudentsSpecialities();

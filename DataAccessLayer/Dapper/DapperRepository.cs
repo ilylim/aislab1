@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
 using System.Data.Entity.Infrastructure;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Dapper;
@@ -22,13 +25,9 @@ namespace DataAccessLayer.Dapper
         /// <param name="obj">добавляемый объект</param>
         public void Create(T obj)
         {
-            var sqlQuery = string.Empty;
-            if (obj is Student)
-            {
-                sqlQuery = $"INSERT INTO Students (Name, [Group], Speciality) VALUES(@Name, @Group, @Speciality); SELECT CAST(SCOPE_IDENTITY() as int)";
-                int studentId = db.Query<int>(sqlQuery, obj).FirstOrDefault();
-                obj.Id = studentId;
-            }
+            var sqlQuery = $"INSERT INTO [{GetTableName()}] ({GetPropertyNames()}) VALUES({GetPropertyNamesRef()}); SELECT CAST(SCOPE_IDENTITY() as int)";
+            int studentId = db.Query<int>(sqlQuery, obj).FirstOrDefault();
+            obj.Id = studentId;
         }
 
         /// <summary>
@@ -37,7 +36,7 @@ namespace DataAccessLayer.Dapper
         /// <param name="obj">удаляемый объект</param>
         public void Delete(T obj)
         {
-            var sqlQuery = "DELETE FROM Students WHERE Id = @Id";
+            var sqlQuery = $"DELETE FROM [{GetTableName()}] WHERE Id = @Id";
             db.Query<T>(sqlQuery, obj);
         }
 
@@ -49,7 +48,7 @@ namespace DataAccessLayer.Dapper
         {
             using (IDbConnection db = new SqlConnection(connectionString))
             {
-                return db.Query<T>("SELECT * FROM Students").ToList();
+                return db.Query<T>($"SELECT * FROM [{GetTableName()}]").ToList();
             }
         }
 
@@ -59,14 +58,71 @@ namespace DataAccessLayer.Dapper
         /// <param name="obj">измененный объект</param>
         public void Update(T obj)
         {
-            var sqlQuery = string.Empty;
-            if (obj is Student)
+            Student student = obj as Student;
+            var sqlQuery = $"UPDATE [{GetTableName()}] SET {GetChangeProperties()} WHERE Id = @Id";
+            db.Query<T>(sqlQuery, obj);
+        }
+
+        /// <summary>
+        /// Метод поиска названия таблицы в БД с объектами T класса
+        /// </summary>
+        /// <returns>название таблицы</returns>
+        private string GetTableName()
+        {
+            var type = typeof(T);
+            var tableAttribute = type.GetCustomAttribute<TableAttribute>();
+            if (tableAttribute != null)
+                return tableAttribute.Name;
+
+            return type.Name + "s";
+        }
+
+        /// <summary>
+        /// Метод поска названий свойств класса T
+        /// </summary>
+        /// <param name="excludeKey"></param>
+        /// <returns>строка со всеми свойствами объекта класса T</returns>
+        private string GetPropertyNames(bool excludeKey = false)
+        {
+            var properties = typeof(T).GetProperties()
+                .Where(p => !excludeKey || p.GetCustomAttribute<KeyAttribute>() == null);
+
+            var values = "[" + string.Join("], [", properties.Where(p => p.Name != "Id").Select(p => p.Name)) + "]";
+
+            return values;
+        }
+
+        /// <summary>
+        /// Метод поиска свойств класса T с @
+        /// </summary>
+        /// <param name="excludeKey"></param>
+        /// <returns>строка со всеми свойствами объекта класса T c @</returns>
+        private string GetPropertyNamesRef(bool excludeKey = false)
+        {
+            var properties = typeof(T).GetProperties()
+                .Where(p => !excludeKey || p.GetCustomAttribute<KeyAttribute>() == null);
+
+            var values = "@" + string.Join(", @", properties.Where(p => p.Name != "Id").Select(p => p.Name));
+
+            return values;
+        }
+
+        /// <summary>
+        /// Метод создания строки для изменения объекта класса T
+        /// </summary>
+        /// <param name="excludeKey"></param>
+        /// <returns>строка для изменения объекта</returns>
+        private string GetChangeProperties(bool excludeKey = false)
+        {
+            var properties = typeof(T).GetProperties().Where(p => !excludeKey || p.GetCustomAttribute<KeyAttribute>() == null);
+            var changeProperties = properties.Where(p => p.Name != "Id").Select(p => p.Name).ToList();
+
+            for (int i = 0; i < changeProperties.Count(); i++)
             {
-                Student student = obj as Student;
-                sqlQuery = $"UPDATE Students SET Name = @Name, [Group] = @Group, " +
-                $"Speciality = @Speciality WHERE Id = @Id";
-                db.Query<T>(sqlQuery, obj);
-            }  
+                changeProperties[i] = "[" + (string)changeProperties[i] + "]" + " = @" + (string)changeProperties[i];
+            }
+            var values = string.Join(", ", changeProperties);
+            return values;
         }
     }
 }

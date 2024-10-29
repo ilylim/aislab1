@@ -32,7 +32,7 @@ namespace DataAccessLayer.EF
         public void Delete(T obj)
         {
             context.Set<T>().Remove(obj);
-            Save();
+            context.SaveChanges();
         }
 
         /// <summary>
@@ -42,7 +42,7 @@ namespace DataAccessLayer.EF
         public void Create(T obj)
         {
             context.Set<T>().Add(obj);
-            Save();
+            context.SaveChanges();
         }
 
         /// <summary>
@@ -52,14 +52,6 @@ namespace DataAccessLayer.EF
         public void Update(T obj)
         {
             context.Set<T>().AddOrUpdate(obj);
-            Save();
-        }
-
-        /// <summary>
-        /// Метод сохранения изменений в БД
-        /// </summary>
-        public void Save()
-        {
             context.SaveChanges();
         }
     }
