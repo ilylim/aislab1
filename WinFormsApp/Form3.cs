@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessLogic;
+using System;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using static System.Windows.Forms.ListView;
@@ -28,8 +29,14 @@ namespace WinFormsApp
         private void ChangeButton_Click(object sender, EventArgs e)
         {
             Form1 main = this.Owner as Form1;
-            LogicDTO.Logic.ChangeStudent(idChangedStudent,
-                textBox1.Text, textBox2.Text, comboBox1.Text);
+            StudentData updateStudent = new StudentData()
+            {
+                Name = textBox1.Text,
+                Group = textBox2.Text,
+                Speciality = comboBox1.Text,
+            };
+            LogicDTO.studentsManager.Update(idChangedStudent,
+                updateStudent);
 
             main.RefreshListView();
 

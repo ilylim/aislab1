@@ -143,7 +143,7 @@
             // 
             // logicBindingSource
             // 
-            this.logicBindingSource.DataSource = typeof(BusinessLogic.Logic);
+            this.logicBindingSource.DataSource = typeof(BusinessLogic.StudentsManager);
             // 
             // Form1
             // 

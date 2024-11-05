@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessLogic;
+using System;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
@@ -23,7 +24,13 @@ namespace WinFormsApp
                 !(string.IsNullOrEmpty(textBox2.Text) && string.IsNullOrWhiteSpace(textBox2.Text)) &&
                  !(string.IsNullOrEmpty(comboBox1.Text) && string.IsNullOrWhiteSpace(comboBox1.Text))) //проверка на дурака
             {
-                LogicDTO.Logic.AddStudent(textBox1.Text, textBox2.Text, comboBox1.Text);
+                StudentData newStudent = new StudentData()
+                {
+                    Name = textBox1.Text,
+                    Group = textBox2.Text,
+                    Speciality = comboBox1.Text
+                };
+                LogicDTO.studentsManager.Create(newStudent);
 
                 Form1 main = this.Owner as Form1;
                 main.RefreshListView();

@@ -13,8 +13,6 @@ namespace WinFormsApp
             InitializeComponent();
             RemoveStudentButton.Enabled = false;
             ChangeStudentButton.Enabled = false;
-            LogicDTO.Logic = new Logic();
-            LogicDTO.Logic.GetAllDictionary();
             RefreshListView();
         }
 
@@ -36,7 +34,7 @@ namespace WinFormsApp
         public void RefreshListView()
         {
             listView.Items.Clear();
-            foreach (var itemData in LogicDTO.Logic.GetAllStudents())
+            foreach (var itemData in LogicDTO.studentsManager.GetAllStudents())
             {
                 ListViewItem item = new ListViewItem(Convert.ToString(itemData.Item1));
                 item.SubItems.Add(itemData.Item2);
@@ -77,7 +75,7 @@ namespace WinFormsApp
         {
             if (listView.SelectedItems.Count > 0)
             {
-                LogicDTO.Logic.RemoveStudent(Convert.ToInt32(((ListViewItem)(listView.SelectedItems[0])).SubItems[0].Text));
+                LogicDTO.studentsManager.Delete(Convert.ToInt32(((ListViewItem)(listView.SelectedItems[0])).SubItems[0].Text));
                 RefreshListView();
             }
             else
@@ -109,10 +107,10 @@ namespace WinFormsApp
         internal void RefreshChart()
         {
             chart1.Series["Специальности"].Points.Clear();
-            LogicDTO.Logic.GetStudentsSpecialities();
+            LogicDTO.studentsManager.GetStudentsSpecialities();
             for (int i = 0; i < 4; i++)
             {
-                chart1.Series["Специальности"].Points.AddXY(LogicDTO.Logic.specialities[i], LogicDTO.Logic.countStudentsSpeciality[i]);
+                chart1.Series["Специальности"].Points.AddXY(LogicDTO.studentsManager.specialities[i], LogicDTO.studentsManager.countStudentsSpeciality[i]);
             }
         }
     }

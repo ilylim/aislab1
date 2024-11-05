@@ -1,22 +1,24 @@
 ﻿using BusinessLogic;
+using Ninject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Web.UI.WebControls;
 using System.Xml.Linq;
 
 namespace aislab1
 {
     internal class Program
     {
+        static IKernel ninjectKernel = new StandardKernel(new SimpleConfigModule());
+        static StudentsManager logic = ninjectKernel.Get<StudentsManager>();
         /// <summary>
         /// Метод реализации лабы через меню в консоли
         /// </summary>
         static public void Menu()
         {
             Console.OutputEncoding = Encoding.UTF8;
-            Logic logic = new Logic();
-            logic.GetAllDictionary();
             bool exit = false;
             while (!exit)
             {
@@ -53,19 +55,19 @@ namespace aislab1
                                             switch (codeSpeciality)
                                             {
                                                 case 1:
-                                                    logic.AddStudent(name, group, "ИСИТ");
+                                                    AddStudent(name, group, "ИСИТ");
                                                     correctSpeciality = true;
                                                     break;
                                                 case 2:
-                                                    logic.AddStudent(name, group, "ИБ");
+                                                    AddStudent(name, group, "ИБ");
                                                     correctSpeciality = true;
                                                     break;
                                                 case 3:
-                                                    logic.AddStudent(name, group, "ИВТ");
+                                                    AddStudent(name, group, "ИВТ");
                                                     correctSpeciality = true;
                                                     break;
                                                 case 4:
-                                                    logic.AddStudent(name, group, "ПИ");
+                                                    AddStudent(name, group, "ПИ");
                                                     correctSpeciality = true;
                                                     break;
                                             }
@@ -88,7 +90,7 @@ namespace aislab1
 
                         case 2:
                             Console.Clear();
-                            PrintList(logic);
+                            PrintList();
                             Console.WriteLine();
                             Console.WriteLine("Введите код студента из списка");
                             if (Int32.TryParse(Console.ReadLine(), out int codeRemovedStudent) && codeRemovedStudent > 0)
@@ -99,7 +101,7 @@ namespace aislab1
                                 }
                                 else
                                 {
-                                    logic.RemoveStudent(codeRemovedStudent);
+                                    logic.Delete(codeRemovedStudent);
                                 }
                             else
                             {
@@ -110,7 +112,7 @@ namespace aislab1
 
                         case 3:
                             Console.Clear();
-                            PrintList(logic);
+                            PrintList();
                             Console.WriteLine();
                             Console.WriteLine("Введите код студента из списка");
                             if (Int32.TryParse(Console.ReadLine(), out int codeChangedStudent) && codeChangedStudent > 0)
@@ -134,14 +136,14 @@ namespace aislab1
                                                     Console.WriteLine("Введите новое ФИО студента");
                                                     string studentNewName = Console.ReadLine();
 
-                                                    logic.ChangeStudent(codeChangedStudent, studentNewName, "", "");
+                                                    UpdateStudent(codeChangedStudent, studentNewName, "", "");
                                                     break;
 
                                                 case 2:
                                                     Console.WriteLine("Введите новую группу студента");
                                                     string studentNewGroup = Console.ReadLine();
 
-                                                    logic.ChangeStudent(codeChangedStudent, "", studentNewGroup, "");
+                                                   UpdateStudent(codeChangedStudent, "", studentNewGroup, "");
                                                     break;
 
                                                 case 3:
@@ -154,19 +156,19 @@ namespace aislab1
                                                             switch (codeNewSpeciality)
                                                             {
                                                                 case 1:
-                                                                    logic.ChangeStudent(codeChangedStudent, "", "", "ИСИТ");
+                                                                    UpdateStudent(codeChangedStudent, "", "", "ИСИТ");
                                                                     correctNewSpeciality = true;
                                                                     break;
                                                                 case 2:
-                                                                    logic.ChangeStudent(codeChangedStudent, "", "", "ИБ");
+                                                                    UpdateStudent(codeChangedStudent, "", "", "ИБ");
                                                                     correctNewSpeciality = true;
                                                                     break;
                                                                 case 3:
-                                                                    logic.ChangeStudent(codeChangedStudent, "", "", "ИВТ");
+                                                                    UpdateStudent(codeChangedStudent, "", "", "ИВТ");
                                                                     correctNewSpeciality = true;
                                                                     break;
                                                                 case 4:
-                                                                    logic.ChangeStudent(codeChangedStudent, "", "", "ПИ");
+                                                                    UpdateStudent(codeChangedStudent, "", "", "ПИ");
                                                                     correctNewSpeciality = true;
                                                                     break;
                                                             }
@@ -205,13 +207,13 @@ namespace aislab1
 
                         case 4:
                             Console.Clear();
-                            PrintList(logic);
+                            PrintList();
                             Console.ReadKey();         
                             break;
 
                         case 5:
                             Console.Clear();
-                            PrintChart(logic);
+                            PrintChart();
                             Console.ReadKey();
                             break;
 
@@ -226,12 +228,46 @@ namespace aislab1
                 }
             }
         }
+
+        /// <summary>
+        /// Метод обновления студента
+        /// </summary>
+        /// <param name="id">id обновляемого студента</param>
+        /// <param name="newName">новое ФИО</param>
+        /// <param name="newGroup">новая группа</param>
+        /// <param name="newSpeciality">новая специальность</param>
+        static void UpdateStudent(int id, string newName, string newGroup, string newSpeciality)
+        {
+            StudentData updateStudent = new StudentData()
+            {
+                Name = newName,
+                Group = newGroup,
+                Speciality = newSpeciality,
+            };
+            logic.Update(id, updateStudent);
+        }
+
+        /// <summary>
+        /// Метод добавления студента
+        /// </summary>
+        /// <param name="name">ФИО студента</param>
+        /// <param name="group">группа</param>
+        /// <param name="speciality">специальность</param>
+        static void AddStudent(string name, string group, string speciality)
+        {
+            StudentData newStudent = new StudentData()
+            {
+                Name = name,
+                Group = group,
+                Speciality = speciality
+            };
+            logic.Create(newStudent);
+        }
         
         /// <summary>
         /// Метод вывода таблицы в консоль
         /// </summary>
-        /// <param name="logic">бизнеслогика</param>
-        static void PrintList(Logic logic)
+        static void PrintList()
         {
             Console.Clear();
             List<(int, string, string, string)> studentsInfo = logic.GetAllStudents();
@@ -251,8 +287,7 @@ namespace aislab1
         /// <summary>
         /// Метод вывода гистограммы в консоль
         /// </summary>
-        /// <param name="logic">бизнеслогика</param>
-        static void PrintChart(Logic logic)
+        static void PrintChart()
         {
             logic.GetStudentsSpecialities();
             Console.WriteLine("╔═════════════════════════╗");

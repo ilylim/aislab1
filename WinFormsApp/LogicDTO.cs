@@ -1,9 +1,11 @@
 ﻿using BusinessLogic;
+using Ninject;
 
 namespace WinFormsApp
 {
     internal class LogicDTO //Класс Data Transfer Object для взаимодействия разных форм с одной логикой
     {
-        public static Logic Logic { get; set; }
+        private static IKernel ninjectKernel = new StandardKernel(new SimpleConfigModule());
+        public static StudentsManager studentsManager { get; set; } = ninjectKernel.Get<StudentsManager>();
     }
 }
