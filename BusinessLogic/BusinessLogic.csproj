@@ -91,7 +91,7 @@
     <Compile Include="Interfaces\IManager.cs" />
     <Compile Include="Managers\StudentsManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SimpleConfigModule.cs" />
+    <Compile Include="SampleConfigModule.cs" />
     <Compile Include="Data\StudentData.cs" />
   </ItemGroup>
   <ItemGroup>

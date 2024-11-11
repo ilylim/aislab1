@@ -10,14 +10,15 @@ namespace BusinessLogic
 {
     public class StudentsManager : IManager<StudentData>
     {   
-        public IRepository<Student> Repository { get; set; }
+        private IRepository<Student> Repository { get; set; }
+
         public StudentsManager(IRepository<Student> repository)
         {
             Repository = repository;
             ReadAll();
         }
 
-        public Dictionary<int, Student> Students { set; get; } = new Dictionary<int, Student>(); //Словарь со студентами (id, student)
+        private Dictionary<int, Student> Students { set; get; } = new Dictionary<int, Student>(); //Словарь со студентами (id, student)
         public List<string> specialities = new List<string>() { "ИСИТ", "ИБ", "ИВТ", "ПИ" }; //Коллекция специальностей
         public List<int> countStudentsSpeciality = new List<int>() { 0, 0, 0, 0 }; //Коллекция количества студентов на специальностях
 
@@ -63,22 +64,6 @@ namespace BusinessLogic
             foreach(Student student in allStudents)
             {
                 Students.Add(student.Id, student);
-            }
-        }
-
-        /// <summary>
-        /// Метод поиска свободного id 
-        /// </summary>
-        /// <returns>id последнего добавленного студента + 1</returns>
-        public int GetLastId()
-        {
-            if(Students.Count() != 0)
-            {
-                return Students.Last().Key;
-            }
-            else
-            {
-                return 0;
             }
         }
 

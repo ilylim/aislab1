@@ -11,8 +11,9 @@ namespace aislab1
 {
     internal class Program
     {
-        static IKernel ninjectKernel = new StandardKernel(new SimpleConfigModule());
-        static StudentsManager logic = ninjectKernel.Get<StudentsManager>();
+        readonly static IKernel ninjectKernel = new StandardKernel(new SampleConfigModule());
+        readonly static StudentsManager studentsManager = ninjectKernel.Get<StudentsManager>();
+
         /// <summary>
         /// Метод реализации лабы через меню в консоли
         /// </summary>
@@ -94,14 +95,14 @@ namespace aislab1
                             Console.WriteLine();
                             Console.WriteLine("Введите код студента из списка");
                             if (Int32.TryParse(Console.ReadLine(), out int codeRemovedStudent) && codeRemovedStudent > 0)
-                                if (!(logic.Students.Keys.Contains(codeRemovedStudent)))
+                                if (!(FindStudent(codeRemovedStudent)))
                                 {
                                     Console.WriteLine("Студента с таким кодом не существует !");
                                     Console.ReadKey();
                                 }
                                 else
                                 {
-                                    logic.Delete(codeRemovedStudent);
+                                    studentsManager.Delete(codeRemovedStudent);
                                 }
                             else
                             {
@@ -116,7 +117,7 @@ namespace aislab1
                             Console.WriteLine();
                             Console.WriteLine("Введите код студента из списка");
                             if (Int32.TryParse(Console.ReadLine(), out int codeChangedStudent) && codeChangedStudent > 0)
-                                if (!(logic.Students.Keys.Contains(codeChangedStudent)))
+                                if (!(FindStudent(codeChangedStudent)))
                                 {
                                     Console.WriteLine("Студента с таким кодом не существует !");
                                     Console.ReadKey();
@@ -244,7 +245,7 @@ namespace aislab1
                 Group = newGroup,
                 Speciality = newSpeciality,
             };
-            logic.Update(id, updateStudent);
+            studentsManager.Update(id, updateStudent);
         }
 
         /// <summary>
@@ -261,16 +262,29 @@ namespace aislab1
                 Group = group,
                 Speciality = speciality
             };
-            logic.Create(newStudent);
+            studentsManager.Create(newStudent);
         }
         
+        static bool FindStudent(int id)
+        {
+            var students = studentsManager.GetAllStudents();
+            foreach (var student in students)
+            {
+                if(student.Item1 == id)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         /// <summary>
         /// Метод вывода таблицы в консоль
         /// </summary>
         static void PrintList()
         {
             Console.Clear();
-            List<(int, string, string, string)> studentsInfo = logic.GetAllStudents();
+            List<(int, string, string, string)> studentsInfo = studentsManager.GetAllStudents();
             Console.WriteLine("┌─────────────────────┬─────────────────────┬────────────────────┬────────────────────┐");
             Console.WriteLine("│         Id          │         ФИО         │       Группа       │   Специальность    │");
             Console.WriteLine("├─────────────────────┼─────────────────────┼────────────────────┼────────────────────┤");
@@ -289,9 +303,9 @@ namespace aislab1
         /// </summary>
         static void PrintChart()
         {
-            logic.GetStudentsSpecialities();
+            studentsManager.GetStudentsSpecialities();
             Console.WriteLine("╔═════════════════════════╗");
-            int maxStudents = logic.countStudentsSpeciality.Max();
+            int maxStudents = studentsManager.countStudentsSpeciality.Max();
             List<string> chart = new List<string> { " ", " ", " ", " " };
             for (int i = 0; i < maxStudents; i++)
             {
@@ -299,28 +313,28 @@ namespace aislab1
                 {
                     if (chart[0] == " ")
                     {
-                        if (maxStudents - i == logic.countStudentsSpeciality[0])
+                        if (maxStudents - i == studentsManager.countStudentsSpeciality[0])
                         {
                             chart[0] = "█";
                         }
                     }
                     if (chart[1] == " ")
                     {
-                        if (maxStudents - i == logic.countStudentsSpeciality[1])
+                        if (maxStudents - i == studentsManager.countStudentsSpeciality[1])
                         {
                             chart[1] = "█";
                         }
                     }
                     if (chart[2] == " ")
                     {
-                        if (maxStudents - i == logic.countStudentsSpeciality[2])
+                        if (maxStudents - i == studentsManager.countStudentsSpeciality[2])
                         {
                             chart[2] = "█";
                         }
                     }
                     if (chart[3] == " ")
                     {
-                        if (maxStudents - i == logic.countStudentsSpeciality[3])
+                        if (maxStudents - i == studentsManager.countStudentsSpeciality[3])
                         {
                             chart[3] = "█";
                         }
