@@ -4,10 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLogic.Interfaces
+namespace BusinessLogic
 {
-    internal interface IManager<T>
+    public interface IManager<T> where T : class
     {
+        /// <summary>
+        /// Событие оповещения об изменении коллекции T
+        /// </summary>
+        event Action<IEnumerable<T>> DataChanged;
         /// <summary>
         /// Метод создания сущности
         /// </summary>
@@ -20,9 +24,8 @@ namespace BusinessLogic.Interfaces
         /// <summary>
         /// Метод обновления сущности
         /// </summary>
-        /// <param name="Id"></param>
         /// <param name="obj"></param>
-        void Update(int Id, T obj);
+        void Update(T obj);
         /// <summary>
         /// Метод удаления сущности
         /// </summary>

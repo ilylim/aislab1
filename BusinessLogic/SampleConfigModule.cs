@@ -5,10 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using DataAccessLayer;
 using Ninject.Modules;
-using Model;
 using DataAccessLayer.EF;
 using DataAccessLayer.Dapper;
-using BusinessLogic.Interfaces;
+using Entities;
 
 namespace BusinessLogic
 {
@@ -17,7 +16,7 @@ namespace BusinessLogic
         public override void Load()
         {
             Bind<IRepository<Student>>().To<DapperRepository<Student>>().InSingletonScope();
-            Bind<IManager<StudentData>>().To<StudentsManager>().InSingletonScope();
+            Bind<IManager<Student>>().To<StudentsManager>().InSingletonScope();
         }
     }
 }

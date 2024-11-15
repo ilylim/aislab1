@@ -1,7 +1,5 @@
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\BusinessLogic.dll
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\BusinessLogic.pdb
-C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\Model.dll
-C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\Model.pdb
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\obj\Debug\BusinessLogic.dll
@@ -9,12 +7,9 @@ C:\Users\Сергей\source\repos\aislab1\BusinessLogic\obj\Debug\BusinessLogic
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\BusinessLogic.dll.config
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\DataAccessLayer.dll
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\EntityFramework.dll
-C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\DataAccessLayer.pdb
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\DataAccessLayer.dll.config
-C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\Model.dll.config
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\EntityFramework.xml
-C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\Dapper.dll
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\Dapper.xml
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\obj\Debug\Business.CF5D6E35.Up2Date
@@ -39,3 +34,7 @@ C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\System.Web.Ra
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\System.Web.WebPages.xml
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\Entities.dll
+C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\Entities.pdb
+C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml

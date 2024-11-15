@@ -1,24 +1,24 @@
-﻿using Model;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using DataAccessLayer;
 using DataAccessLayer.EF;
 using DataAccessLayer.Dapper;
-using BusinessLogic.Interfaces;
+using System;
+using Entities;
+using Ninject;
 
 namespace BusinessLogic
 {
-    public class StudentsManager : IManager<StudentData>
-    {   
-        private IRepository<Student> Repository { get; set; }
+    public class StudentsManager : IManager<Student>
+    {
+        private IRepository<Student> Repository { get; set; } = new DapperRepository<Student>(); 
 
-        public StudentsManager(IRepository<Student> repository)
-        {
-            Repository = repository;
-            ReadAll();
-        }
+        /// <summary>
+        /// Событие оповещения об изменении сущностей
+        /// </summary>
+        public event Action<IEnumerable<Student>> DataChanged;
 
-        private Dictionary<int, Student> Students { set; get; } = new Dictionary<int, Student>(); //Словарь со студентами (id, student)
+        private Dictionary<int, Student> Students = new Dictionary<int, Student>(); //Словарь со студентами (id, student)
         public List<string> specialities = new List<string>() { "ИСИТ", "ИБ", "ИВТ", "ПИ" }; //Коллекция специальностей
         public List<int> countStudentsSpeciality = new List<int>() { 0, 0, 0, 0 }; //Коллекция количества студентов на специальностях
 
@@ -28,30 +28,11 @@ namespace BusinessLogic
         /// <param name="name">ФИО студента</param>
         /// <param name="group">группа</param>
         /// <param name="speciality">специальность</param>
-        public void Create(StudentData newStudent)
+        public void Create(Student newStudent)
         {
-            Student student = new Student()
-            {
-                Name = newStudent.Name,
-                Group = newStudent.Group,
-                Speciality = newStudent.Speciality
-            };
-            Repository.Create(student);
-            Students.Add(student.Id, student);
-        }
-
-        /// <summary>
-        /// Метод создания списка с данными о студентах
-        /// </summary>
-        /// <returns>список с кортежами с информацией (id, name, group, speciality) студентов</returns>
-        public List<(int, string, string, string)> GetAllStudents()
-        {
-            List<(int, string, string, string)> students = new List<(int, string, string, string)>();
-            foreach(var student in Students.Values)
-            {
-                students.Add((student.Id, student.Name, student.Group, student.Speciality));
-            }
-            return students;
+            Repository.Create(newStudent);
+            Students.Add(newStudent.Id, newStudent);
+            InvokeDataChanged();
         }
 
         /// <summary>
@@ -65,6 +46,7 @@ namespace BusinessLogic
             {
                 Students.Add(student.Id, student);
             }
+            InvokeDataChanged();
         }
 
         /// <summary>
@@ -75,6 +57,7 @@ namespace BusinessLogic
         {
             Repository.Delete(Students[code]);
             Students.Remove(code);
+            InvokeDataChanged();
         }
 
         /// <summary>
@@ -84,40 +67,19 @@ namespace BusinessLogic
         /// <param name="newName">измененное ФИО</param>
         /// <param name="newGroup">измененная группа</param>
         /// <param name="newSpeciality">измененная специальность</param>
-        public void Update(int id, StudentData updateStudent)
+        public void Update(Student updateStudent)
         {
-            Student student = Students[id];
-            if (updateStudent.Name != "")
-            {
-                student.Name = updateStudent.Name;
-            }
-            if (updateStudent.Group != "")
-            {
-                student.Group = updateStudent.Group;
-            }
-            if (updateStudent.Speciality != "")
-            {
-                student.Speciality = updateStudent.Speciality;
-            }
-            Repository.Update(Students[id]);
+            Students[updateStudent.Id] = updateStudent;
+            Repository.Update(updateStudent);
+            InvokeDataChanged();
         }
 
         /// <summary>
-        /// Метод вывода количества студентов по специальностям
+        /// Вызов события DataChanged
         /// </summary>
-        public void GetStudentsSpecialities()
+        private void InvokeDataChanged()
         {
-            for (int countSpeciality = 0; countSpeciality <= specialities.Count() - 1; countSpeciality++)
-            {
-                countStudentsSpeciality[countSpeciality] = 0;
-                foreach (Student student in Students.Values)
-                {
-                    if (student.Speciality == specialities[countSpeciality])
-                    {
-                        countStudentsSpeciality[countSpeciality]++;
-                    }
-                }
-            }
+            DataChanged?.Invoke(Students.Values);
         }
     }
 }

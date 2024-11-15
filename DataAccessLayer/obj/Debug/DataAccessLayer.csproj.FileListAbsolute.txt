@@ -3,9 +3,6 @@ C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\DataAccessL
 C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
 C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\EntityFramework.dll
 C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Model.dll
-C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Model.pdb
-C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Model.dll.config
 C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\EntityFramework.xml
 C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
@@ -36,3 +33,5 @@ C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\System.Web.
 C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\System.Web.WebPages.xml
 C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Entities.dll
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Entities.pdb
