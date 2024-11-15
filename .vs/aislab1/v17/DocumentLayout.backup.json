@@ -193,8 +193,7 @@
               "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\StartForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "WinFormsApp\\Forms\\StartForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:47:13.094Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-11-05T07:47:13.094Z"
             },
             {
               "$type": "Document",
@@ -206,8 +205,7 @@
               "RelativeToolTip": "Presenter\\StudentPresenter.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T12:10:52.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T12:10:52.038Z"
             },
             {
               "$type": "Document",
@@ -219,8 +217,7 @@
               "RelativeToolTip": "Presenter\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T12:10:14.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T12:10:14.308Z"
             },
             {
               "$type": "Document",
@@ -232,8 +229,7 @@
               "RelativeToolTip": "BusinessLogic\\Managers\\StudentsManager.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwDAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T15:53:04.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T15:53:04.214Z"
             },
             {
               "$type": "Document",
@@ -245,8 +241,7 @@
               "RelativeToolTip": "WinFormsApp\\Forms\\StartForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T15:55:37.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T15:55:37.884Z"
             },
             {
               "$type": "Document",
@@ -258,8 +253,7 @@
               "RelativeToolTip": "WinFormsApp\\Forms\\AddStudentForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T16:16:07.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T16:16:07.576Z"
             },
             {
               "$type": "Document",
@@ -270,8 +264,7 @@
               "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\ChangeStudentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "WinFormsApp\\Forms\\ChangeStudentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T11:57:20.333Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-11-11T11:57:20.333Z"
             },
             {
               "$type": "Document",
@@ -283,8 +276,7 @@
               "RelativeToolTip": "WinFormsApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T05:32:42.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T05:32:42.378Z"
             },
             {
               "$type": "Document",
@@ -292,9 +284,9 @@
               "Title": "ViewArgs.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\ViewArgs.cs",
               "RelativeDocumentMoniker": "Shared\\ViewArgs.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\ViewArgs.cs*",
-              "RelativeToolTip": "Shared\\ViewArgs.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\ViewArgs.cs",
+              "RelativeToolTip": "Shared\\ViewArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T12:43:01.104Z",
               "EditorCaption": ""
@@ -309,8 +301,7 @@
               "RelativeToolTip": "Shared\\Interfaces\\IUpdateView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T13:47:30.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T13:47:30.573Z"
             },
             {
               "$type": "Document",
@@ -322,8 +313,7 @@
               "RelativeToolTip": "WinFormsApp\\Forms\\ChangeStudentForm.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T18:01:28.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T18:01:28.504Z"
             },
             {
               "$type": "Document",
@@ -335,8 +325,7 @@
               "RelativeToolTip": "BusinessLogic\\SampleConfigModule.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T13:41:49.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T13:41:49.314Z"
             },
             {
               "$type": "Document",
@@ -348,8 +337,7 @@
               "RelativeToolTip": "Shared\\Interfaces\\IView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T13:47:32.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T13:47:32.69Z"
             },
             {
               "$type": "Document",
@@ -361,8 +349,7 @@
               "RelativeToolTip": "Shared\\Interfaces\\IDeleteView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T13:47:22.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T13:47:22.694Z"
             },
             {
               "$type": "Document",
@@ -374,8 +361,7 @@
               "RelativeToolTip": "Shared\\Interfaces\\IAddView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T13:47:15.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T13:47:15.945Z"
             },
             {
               "$type": "Document",
@@ -386,8 +372,7 @@
               "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\AddStudentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "WinFormsApp\\Forms\\AddStudentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T11:56:05.16Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-11-11T11:56:05.16Z"
             },
             {
               "$type": "Document",
@@ -399,8 +384,7 @@
               "RelativeToolTip": "BusinessLogic\\Interfaces\\IManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T05:02:55.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T05:02:55.027Z"
             },
             {
               "$type": "Document",
@@ -412,8 +396,7 @@
               "RelativeToolTip": "Shared\\EventArgs\\StudentEventArgs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T11:52:25.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T11:52:25.809Z"
             },
             {
               "$type": "Document",
@@ -557,8 +540,7 @@
               "RelativeToolTip": "BusinessLogic\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-11T15:12:37.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T15:12:37.178Z"
             },
             {
               "$type": "Document",
@@ -594,8 +576,7 @@
               "RelativeToolTip": "WinFormsApp\\Forms\\StartForm.Designer.cs",
               "ViewState": "AgIAAHUAAAAAAAAAAAAswIoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T05:32:51.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T05:32:51.115Z"
             }
           ]
         }
