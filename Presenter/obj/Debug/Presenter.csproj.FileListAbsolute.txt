@@ -49,3 +49,6 @@ C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\System.Web.Razor.
 C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\System.Web.WebPages.xml
 C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\aislab1.exe
+C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\aislab1.pdb
+C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\aislab1.exe.config

@@ -77,11 +77,13 @@
   <ItemGroup>
     <Compile Include="EventArgs\StudentEventArgs.cs" />
     <Compile Include="Interfaces\IAddView.cs" />
+    <Compile Include="Interfaces\IConsoleView.cs" />
     <Compile Include="Interfaces\IDeleteView.cs" />
+    <Compile Include="Interfaces\IStarter.cs" />
+    <Compile Include="Interfaces\ITransitionView.cs" />
     <Compile Include="Interfaces\IUpdateView.cs" />
     <Compile Include="Interfaces\IView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewArgs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

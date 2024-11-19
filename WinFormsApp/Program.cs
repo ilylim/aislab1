@@ -1,22 +1,30 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using Shared;
 
 namespace WinFormsApp
 {
     internal static class Program
     {
-        [STAThread]
         static void Main()
         {
         }
     }
     
-    public static class Starter
+    public class Starter : IStarter
     {
-        public static void StartForm(StartForm form)
+        bool IsLoad = true;
+        public Starter(IView view) 
+        {
+            View = view;
+        }
+        public IView View { get; set; }
+
+        public void StartView()
         {
             Application.EnableVisualStyles();
-            Application.Run(form);
+            ((Form)View).ShowDialog();
         }
     }
 }

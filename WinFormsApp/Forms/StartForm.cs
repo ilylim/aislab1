@@ -7,10 +7,10 @@ using System.Linq;
 
 namespace WinFormsApp
 {
-    public partial class StartForm : Form, IView, IDeleteView
+    public partial class StartForm : Form, IView, IDeleteView, ITransitionView
     {
-        private AddStudentForm addStudentForm { get; set; }
-        private ChangeStudentForm changeStudentForm { get; set; }
+        public AddStudentForm addStudentView { get; set; }
+        public ChangeStudentForm updateStudentView { get; set; }
         /// <summary>
         /// Метод перерисовки стартовой вьюшки
         /// </summary>
@@ -22,16 +22,19 @@ namespace WinFormsApp
         }
         
         public event Action<int> DeleteDataEvent;
+        public event Action ChangeView;
 
-        public StartForm(AddStudentForm addForm, ChangeStudentForm updateForm)
+        public StartForm(AddStudentForm addView, ChangeStudentForm updateView)
         {
             InitializeComponent();
             RemoveStudentButton.Enabled = false;
             ChangeStudentButton.Enabled = false;
-            addStudentForm = addForm;
-            addStudentForm.Owner = this;
-            changeStudentForm = updateForm;
-            changeStudentForm.Owner = this;
+            addStudentView = addView;
+            addStudentView.Owner = this;
+            updateStudentView = updateView;
+            updateStudentView.Owner = this;
+            addView.main = this;
+            updateView.main = this;
         }
 
         /// <summary>
@@ -41,18 +44,8 @@ namespace WinFormsApp
         /// <param name="e"></param>
         private void AddStudentButton_Click(object sender, EventArgs e)
         {
-            addStudentForm.ShowDialog();
+            addStudentView.ShowDialog();
         }
-
-        //public void AddStudent(StudentEventArgs addedStudent)
-        //{
-        //    AddDataEvent(addedStudent);
-        //}
-
-        //public void UpdateStudent(StudentEventArgs updatedStudent)
-        //{
-        //    UpdateDataEvent(updatedStudent);
-        //}
 
         /// <summary>
         /// Метод для вывода содержимого базы данных в listView
@@ -79,8 +72,8 @@ namespace WinFormsApp
         {
             if (listView.SelectedItems.Count > 0)
             {
-                changeStudentForm.RefreshChangedItem();
-                changeStudentForm.ShowDialog();
+                updateStudentView.RefreshChangedItem();
+                updateStudentView.ShowDialog();
             }
             else
             {
@@ -149,6 +142,13 @@ namespace WinFormsApp
             {
                 chart1.Series["Специальности"].Points.AddXY(specialities[i], countStudentsSpeciality[i]);
             }
+        }
+
+        private void ChangeViewButton_Click(object sender, EventArgs e)
+        {
+            Visible = false;
+            Close();
+            ChangeView();
         }
     }
 }

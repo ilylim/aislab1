@@ -92,13 +92,21 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StudentPresenter.cs" />
+    <Compile Include="StudentAddPresenter.cs" />
+    <Compile Include="StudentConsolePresenter.cs" />
+    <Compile Include="StudentDeletePresenter.cs" />
+    <Compile Include="StudentUpdatePresenter.cs" />
+    <Compile Include="TransitionPresenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\aislab1\ConsoleApp.csproj">
+      <Project>{0c0674c1-d363-4753-84ff-8a14ac781862}</Project>
+      <Name>ConsoleApp</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
       <Project>{ad544880-28f1-42fd-95fe-b3ea2fe2eac6}</Project>
       <Name>BusinessLogic</Name>

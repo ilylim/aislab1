@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using WinFormsApp;
 using Ninject;
 using Shared;
+using aislab1;
 
 namespace Presenter
 {
@@ -14,18 +15,28 @@ namespace Presenter
     {
         static void Main(string[] args)
         {
-            var addView = new AddStudentForm();
-            var updateView = new ChangeStudentForm();
-            var startView = new StartForm(addView, updateView);
-            addView.main = startView;
-            updateView.main = startView;
+            //WinForms views
+            var startView = new StartForm(new AddStudentForm(), new ChangeStudentForm()); 
 
-            ViewArgs views = new ViewArgs(addView, startView, updateView);
+            //Console view
+            var consoleView = new ConsoleView();
 
-            StudentPresenter presenter = new StudentPresenter(views, new StudentsManager());
+            //Managers
+            var studentsManager = new StudentsManager();
 
-            Starter.StartForm(startView);
-            Console.ReadKey();
+            //Starters
+            IStarter winFormsStarter = new WinFormsApp.Starter(startView);
+            IStarter consoleStarter = new aislab1.Starter(consoleView);
+
+            //Presenters
+            StudentDeletePresenter startPresenter = new StudentDeletePresenter(startView, studentsManager);
+            StudentAddPresenter addPresenter = new StudentAddPresenter(startView.addStudentView, studentsManager);
+            StudentUpdatePresenter updatePresenter = new StudentUpdatePresenter(startView.updateStudentView, studentsManager);
+            StudentConsolePresenter consolePresenter = new StudentConsolePresenter(consoleView, studentsManager);
+
+            TransitionPresenter transitionPresenter = new TransitionPresenter(consoleStarter, winFormsStarter);
+
+            consoleStarter.StartView();
         }
     }
 }
