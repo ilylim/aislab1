@@ -109,6 +109,10 @@ namespace WinFormsApp
             }
         }
 
+        /// <summary>
+        /// Метод перерисовки вьюшки
+        /// </summary>
+        /// <param name="args"></param>
         public void RedrawForm(IEnumerable<EventArgs> args)
         {
             textBox1.Clear();

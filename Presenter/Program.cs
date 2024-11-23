@@ -15,28 +15,36 @@ namespace Presenter
     {
         static void Main(string[] args)
         {
-            //WinForms views
-            var startView = new StartForm(new AddStudentForm(), new ChangeStudentForm()); 
+            // WinForms views
+            var addForm = new AddStudentForm();
+            var updateForm = new ChangeStudentForm();
+            var startForm = new StartForm(addForm, updateForm);
 
-            //Console view
+            // Console view
             var consoleView = new ConsoleView();
 
-            //Managers
-            var studentsManager = new StudentsManager();
-
-            //Starters
-            IStarter winFormsStarter = new WinFormsApp.Starter(startView);
+            // Managers
+            IKernel ninjectKernel = new StandardKernel(new SimpleConfigModule());
+            var studentsManager = ninjectKernel.Get<StudentsManager>();
+            
+            // Starters
+            IStarter winFormsStarter = new WinFormsApp.Starter(startForm);
             IStarter consoleStarter = new aislab1.Starter(consoleView);
 
-            //Presenters
-            StudentDeletePresenter startPresenter = new StudentDeletePresenter(startView, studentsManager);
-            StudentAddPresenter addPresenter = new StudentAddPresenter(startView.addStudentView, studentsManager);
-            StudentUpdatePresenter updatePresenter = new StudentUpdatePresenter(startView.updateStudentView, studentsManager);
+            // Presenters
             StudentConsolePresenter consolePresenter = new StudentConsolePresenter(consoleView, studentsManager);
+            StudentAddPresenter addStudentPresenter = new StudentAddPresenter(addForm, studentsManager);
+            StudentDeletePresenter deleteStudentPresenter = new StudentDeletePresenter(startForm, studentsManager);
+            StudentUpdatePresenter updateStudentPresenter = new StudentUpdatePresenter(updateForm, studentsManager);
 
-            TransitionPresenter transitionPresenter = new TransitionPresenter(consoleStarter, winFormsStarter);
+            // Transfer for change views
+            TransferConsoleWinForms transferViews = new TransferConsoleWinForms(consoleStarter, winFormsStarter);
 
+            studentsManager.ReadAll(); // Запускаем для того чтобы загрузить инфу с БДшки в приложухи
+
+            // Choose your option
             consoleStarter.StartView();
+            //winFormsStarter.StartView();
         }
     }
 }

@@ -52,3 +52,7 @@ C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\System.Web.WebPag
 C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\aislab1.exe
 C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\aislab1.pdb
 C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\aislab1.exe.config
+C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\Entities.dll.config
+C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\Shared.dll.config
+C:\Users\Сергей\source\repos\aislab1\Presenter\bin\Debug\EntityFramework.SqlServer.xml

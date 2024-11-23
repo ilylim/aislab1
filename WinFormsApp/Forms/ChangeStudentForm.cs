@@ -21,6 +21,9 @@ namespace WinFormsApp
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Метод смены изменяющегося студента
+        /// </summary>
         public void RefreshChangedItem()
         {
             changedItem = main.listView.SelectedItems[0];
@@ -51,6 +54,10 @@ namespace WinFormsApp
             this.Close();
         }
 
+        /// <summary>
+        /// Метод обновления вьюшки
+        /// </summary>
+        /// <param name="args">список с информацией о студентах</param>
         public void RedrawForm(IEnumerable<EventArgs> args)
         {
             main.RedrawForm(args);

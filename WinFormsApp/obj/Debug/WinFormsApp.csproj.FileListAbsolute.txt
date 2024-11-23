@@ -39,6 +39,7 @@ C:\Users\Сергей\source\repos\aislab1\WinFormsApp\obj\Debug\WinFormsApp.Cha
 C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\Shared.dll
 C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\Shared.pdb
 C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\EntityFramework.dll
-C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\EntityFramework.xml
+C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\Shared.dll.config
 C:\Users\Сергей\source\repos\aislab1\WinFormsApp\bin\Debug\EntityFramework.SqlServer.xml

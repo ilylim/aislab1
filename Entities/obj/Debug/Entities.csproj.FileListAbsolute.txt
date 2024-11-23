@@ -26,3 +26,8 @@ C:\Users\Сергей\source\repos\aislab1\Entities\bin\Debug\System.Web.WebPage
 C:\Users\Сергей\source\repos\aislab1\Entities\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\Сергей\source\repos\aislab1\Entities\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\Сергей\source\repos\aislab1\Entities\obj\Debug\Entities.csproj.Up2Date
+C:\Users\Сергей\source\repos\aislab1\Entities\bin\Debug\EntityFramework.dll
+C:\Users\Сергей\source\repos\aislab1\Entities\bin\Debug\EntityFramework.xml
+C:\Users\Сергей\source\repos\aislab1\Entities\bin\Debug\Entities.dll.config
+C:\Users\Сергей\source\repos\aislab1\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Сергей\source\repos\aislab1\Entities\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,5 +1,4 @@
-﻿using Ninject;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +17,10 @@ namespace aislab1
         public event Action<EventArgs> UpdateDataEvent;
         private IEnumerable<EventArgs> students;
 
+        /// <summary>
+        /// Метод подгрузки информации о студентах
+        /// </summary>
+        /// <param name="args"></param>
         public void RedrawForm(IEnumerable<EventArgs> args)
         {
             students = args;
@@ -34,7 +37,6 @@ namespace aislab1
             {
                 Console.Clear();
                 Console.WriteLine("1. Добавить студента\n2. Удалить студента\n3. Изменить студента\n4. Показать таблицу\n5. Показать гистограмму студентов по специальностям\n6. Перейти в винформы\n7. Выход");
-                Console.WindowWidth = 200;
                 if (Int32.TryParse(Console.ReadLine(), out int Menu))
                 {
                     switch (Menu)
@@ -105,6 +107,7 @@ namespace aislab1
                             Console.WriteLine();
                             Console.WriteLine("Введите код студента из списка");
                             if (Int32.TryParse(Console.ReadLine(), out int codeRemovedStudent) && codeRemovedStudent > 0)
+                            {
                                 if (!(FindStudent(codeRemovedStudent)))
                                 {
                                     Console.WriteLine("Студента с таким кодом не существует !");
@@ -114,6 +117,7 @@ namespace aislab1
                                 {
                                     DeleteDataEvent(codeRemovedStudent);
                                 }
+                            }
                             else
                             {
                                 Console.WriteLine("Код студента является числом > 0");
@@ -127,6 +131,7 @@ namespace aislab1
                             Console.WriteLine();
                             Console.WriteLine("Введите код студента из списка");
                             if (Int32.TryParse(Console.ReadLine(), out int codeChangedStudent) && codeChangedStudent > 0)
+                            {
                                 if (!(FindStudent(codeChangedStudent)))
                                 {
                                     Console.WriteLine("Студента с таким кодом не существует !");
@@ -204,11 +209,11 @@ namespace aislab1
                                         }
                                         else
                                         {
-                                            Console.WriteLine("Студента с таким кодом не существует !");
-                                            Console.ReadKey();
+                                            Console.WriteLine("Выберите число от 1 до 4 ! ! !");
                                         }
                                     }
                                 }
+                            }
                             else
                             {
                                 Console.WriteLine("Код студента является числом > 0");
@@ -236,6 +241,7 @@ namespace aislab1
 
                         case 7:
                             exit = true;
+                            Console.Clear();
                             break;
 
                         default:
@@ -244,16 +250,6 @@ namespace aislab1
                     }
                 }
             }
-        }
-
-        private void InvokeAddDataEvent(int id)
-        {
-            DeleteDataEvent(id);
-        }
-
-        private void InvokeDeleteDataEvent(int id)
-        {
-            DeleteDataEvent(id);
         }
 
         /// <summary>
@@ -265,13 +261,30 @@ namespace aislab1
         /// <param name="newSpeciality">новая специальность</param>
         private void UpdateStudent(int id, string newName, string newGroup, string newSpeciality)
         {
-            StudentEventArgs updatedStudent = new StudentEventArgs()
+            StudentEventArgs updatedStudent = new StudentEventArgs();
+            foreach(StudentEventArgs student in students)
             {
-                Name = newName,
-                Group = newGroup,
-                Speciality = newSpeciality,
-                Id = id,
-            };
+                if(student.Id == id)
+                {
+                    updatedStudent.Name = student.Name;
+                    updatedStudent.Group = student.Group;
+                    updatedStudent.Speciality = student.Speciality;
+                    updatedStudent.Id = student.Id;
+                }
+            }
+
+            if (!(string.IsNullOrEmpty(newName) || string.IsNullOrWhiteSpace(newName)))
+            {
+                updatedStudent.Name = newName;
+            }
+            if (!(string.IsNullOrEmpty(newGroup) || string.IsNullOrWhiteSpace(newGroup)))
+            {
+                updatedStudent.Group = newGroup;
+            }
+            if(!(string.IsNullOrEmpty(newSpeciality) || string.IsNullOrWhiteSpace(newSpeciality)))
+            {
+                updatedStudent.Speciality = newSpeciality;
+            }
 
             UpdateDataEvent(updatedStudent);
         }
@@ -294,6 +307,11 @@ namespace aislab1
             AddDataEvent(newStudent);
         }
 
+        /// <summary>
+        /// Проверка наличия студента в БДшке по его id
+        /// </summary>
+        /// <param name="id">id студента</param>
+        /// <returns>найден студент или нет</returns>
         private bool FindStudent(int id)
         {
             foreach (StudentEventArgs student in students)

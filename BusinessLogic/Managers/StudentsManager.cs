@@ -11,7 +11,11 @@ namespace BusinessLogic
 {
     public class StudentsManager : IManager<Student>
     {
-        private IRepository<Student> Repository { get; set; } = new DapperRepository<Student>(); 
+        private IRepository<Student> Repository { get; set; }
+        public StudentsManager(IRepository<Student> repository)
+        {
+            Repository = repository;
+        }
 
         /// <summary>
         /// Событие оповещения об изменении сущностей

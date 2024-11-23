@@ -37,4 +37,5 @@ C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\System.Web.We
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\Entities.dll
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\Entities.pdb
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\Entities.dll.config
 C:\Users\Сергей\source\repos\aislab1\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml

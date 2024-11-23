@@ -35,3 +35,4 @@ C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\System.Web.
 C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Entities.dll
 C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Entities.pdb
+C:\Users\Сергей\source\repos\aislab1\DataAccessLayer\bin\Debug\Entities.dll.config

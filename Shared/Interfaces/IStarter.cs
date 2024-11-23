@@ -9,6 +9,9 @@ namespace Shared
     public interface IStarter
     {
         IView View { get; set; }
+        /// <summary>
+        /// Метод запуска вьюшки
+        /// </summary>
         void StartView();
     }
 }

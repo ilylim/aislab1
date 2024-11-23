@@ -15,16 +15,26 @@ namespace WinFormsApp
     public class Starter : IStarter
     {
         bool IsLoad = true;
-        public Starter(IView view) 
+
+        public IView View { get; set; }
+
+        public Starter(IView view)
         {
             View = view;
         }
-        public IView View { get; set; }
 
         public void StartView()
         {
-            Application.EnableVisualStyles();
-            ((Form)View).ShowDialog();
+            if (IsLoad)
+            {
+                IsLoad = false;
+                Application.EnableVisualStyles();
+                ((Form)View).ShowDialog();
+            }
+            else
+            {
+                ((Form)View).Visible = true;
+            }
         }
     }
 }

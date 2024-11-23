@@ -11,6 +11,7 @@ namespace WinFormsApp
     {
         public AddStudentForm addStudentView { get; set; }
         public ChangeStudentForm updateStudentView { get; set; }
+     
         /// <summary>
         /// Метод перерисовки стартовой вьюшки
         /// </summary>
@@ -24,6 +25,11 @@ namespace WinFormsApp
         public event Action<int> DeleteDataEvent;
         public event Action ChangeView;
 
+        /// <summary>
+        /// Метод создания экземпляра StartForm
+        /// </summary>
+        /// <param name="addView">вьюшка добавления студентов</param>
+        /// <param name="updateView">вьюшка изменения студентов</param>
         public StartForm(AddStudentForm addView, ChangeStudentForm updateView)
         {
             InitializeComponent();
@@ -118,7 +124,7 @@ namespace WinFormsApp
         }
 
         /// <summary>
-        /// Метод обновления гистограммы
+        /// Метод перерисовки гистограммы
         /// </summary>
         private void RefreshChart(IEnumerable<EventArgs> students)
         {
@@ -138,16 +144,21 @@ namespace WinFormsApp
             }
 
             chart1.Series["Специальности"].Points.Clear();
+
             for (int i = 0; i < 4; i++)
             {
                 chart1.Series["Специальности"].Points.AddXY(specialities[i], countStudentsSpeciality[i]);
             }
         }
 
+        /// <summary>
+        /// Метод для переключения на консольку
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ChangeViewButton_Click(object sender, EventArgs e)
         {
             Visible = false;
-            Close();
             ChangeView();
         }
     }

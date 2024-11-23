@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shared
 {
-    public interface IConsoleView : IView, IAddView, IDeleteView, IUpdateView
+    public interface IConsoleView : IView, IAddView, IDeleteView, IUpdateView //Интерфейс консольки
     {
     }
 }
