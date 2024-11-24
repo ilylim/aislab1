@@ -90,6 +90,7 @@
     <Compile Include="Interfaces\IAddView.cs" />
     <Compile Include="Interfaces\IConsoleView.cs" />
     <Compile Include="Interfaces\IDeleteView.cs" />
+    <Compile Include="Interfaces\IMainWinFormsView.cs" />
     <Compile Include="Interfaces\IStarter.cs" />
     <Compile Include="Interfaces\ITransitionView.cs" />
     <Compile Include="Interfaces\IUpdateView.cs" />

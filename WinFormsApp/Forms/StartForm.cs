@@ -7,10 +7,11 @@ using System.Linq;
 
 namespace WinFormsApp
 {
-    public partial class StartForm : Form, IView, IDeleteView, ITransitionView
+    public partial class StartForm : Form, IView, IDeleteView, ITransitionView, IMainWinFormsView
     {
-        public AddStudentForm addStudentView { get; set; }
-        public ChangeStudentForm updateStudentView { get; set; }
+        public IAddView addView { get; set; }
+        public IUpdateView updateView { get; set; }
+        public IDeleteView deleteView { get; set; }
      
         /// <summary>
         /// Метод перерисовки стартовой вьюшки
@@ -35,12 +36,13 @@ namespace WinFormsApp
             InitializeComponent();
             RemoveStudentButton.Enabled = false;
             ChangeStudentButton.Enabled = false;
-            addStudentView = addView;
-            addStudentView.Owner = this;
-            updateStudentView = updateView;
-            updateStudentView.Owner = this;
+            addView.Owner = this;
+            updateView.Owner = this;
             addView.main = this;
             updateView.main = this;
+            this.addView = addView;
+            this.updateView = updateView;
+            deleteView = this;
         }
 
         /// <summary>
@@ -50,7 +52,7 @@ namespace WinFormsApp
         /// <param name="e"></param>
         private void AddStudentButton_Click(object sender, EventArgs e)
         {
-            addStudentView.ShowDialog();
+            ((Form)addView).ShowDialog();
         }
 
         /// <summary>
@@ -78,8 +80,8 @@ namespace WinFormsApp
         {
             if (listView.SelectedItems.Count > 0)
             {
-                updateStudentView.RefreshChangedItem();
-                updateStudentView.ShowDialog();
+                ((ChangeStudentForm)updateView).RefreshChangedItem();
+                ((ChangeStudentForm)updateView).ShowDialog();
             }
             else
             {

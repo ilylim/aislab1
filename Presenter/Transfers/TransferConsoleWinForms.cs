@@ -20,12 +20,14 @@ namespace Presenter
         /// <summary>
         /// Метод создания экземпляра TransitionPresenter
         /// </summary>
-        /// <param name="consoleStarter">стартер консольной вьюшки</param>
-        /// <param name="winFormsStarter">стартер винформсов</param>
+        /// <param name="consoleStarter">стартер c ITransitionView консольной вьюшки</param>
+        /// <param name="winFormsStarter">стартер с ITransitionView вьюшки винформсов</param>
         public TransferConsoleWinForms(IStarter consoleStarter, IStarter winFormsStarter)
         {
             ConsoleStarter = consoleStarter;
             WinFormsStarter = winFormsStarter;
+
+            // Предполагается, что в стартерах вьюшки являются изменяемыми (ITransitionView)
             ((ITransitionView)ConsoleStarter.View).ChangeView += ChangeConsoleView;
             ((ITransitionView)WinFormsStarter.View).ChangeView += ChangeWinFormsView;
         }

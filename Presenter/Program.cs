@@ -1,4 +1,5 @@
 ﻿using BusinessLogic;
+using Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,16 +17,16 @@ namespace Presenter
         static void Main(string[] args)
         {
             // WinForms views
-            var addForm = new AddStudentForm();
-            var updateForm = new ChangeStudentForm();
-            var startForm = new StartForm(addForm, updateForm);
+            IKernel ninjectKernelWinFormsView = new StandardKernel(new WinFormsViewConfigModule());
+            var startForm = ninjectKernelWinFormsView.Get<IMainWinFormsView>();
 
             // Console view
-            var consoleView = new ConsoleView();
+            IKernel ninjectKernelConsoleView = new StandardKernel(new ConsoleViewConfigModule());
+            var consoleView = ninjectKernelConsoleView.Get<IConsoleView>();
 
             // Managers
-            IKernel ninjectKernel = new StandardKernel(new SimpleConfigModule());
-            var studentsManager = ninjectKernel.Get<StudentsManager>();
+            IKernel ninjectKernel = new StandardKernel(new BusinessLogicConfigModule());
+            var studentsManager = ninjectKernel.Get<IManager<Student>>();
             
             // Starters
             IStarter winFormsStarter = new WinFormsApp.Starter(startForm);
@@ -33,9 +34,9 @@ namespace Presenter
 
             // Presenters
             StudentConsolePresenter consolePresenter = new StudentConsolePresenter(consoleView, studentsManager);
-            StudentAddPresenter addStudentPresenter = new StudentAddPresenter(addForm, studentsManager);
-            StudentDeletePresenter deleteStudentPresenter = new StudentDeletePresenter(startForm, studentsManager);
-            StudentUpdatePresenter updateStudentPresenter = new StudentUpdatePresenter(updateForm, studentsManager);
+            StudentAddPresenter addStudentPresenter = new StudentAddPresenter(startForm.addView, studentsManager);
+            StudentDeletePresenter deleteStudentPresenter = new StudentDeletePresenter(startForm.deleteView, studentsManager);
+            StudentUpdatePresenter updateStudentPresenter = new StudentUpdatePresenter(startForm.updateView, studentsManager);
 
             // Transfer for change views
             TransferConsoleWinForms transferViews = new TransferConsoleWinForms(consoleStarter, winFormsStarter);
