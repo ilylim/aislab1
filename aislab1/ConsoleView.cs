@@ -62,7 +62,7 @@ namespace aislab1
                                     while (!correctSpeciality)
                                     {
                                         Console.Clear();
-                                        Console.WriteLine($"ФИО студента: {name}\nГруппа студента: {group}\n\nВыберите специализацию студента\n1 - ИСИТ\n2 - ИБ\n3 - ИВТ\n4 - ПИ)");
+                                        Console.WriteLine($"ФИО студента: {name}\nГруппа студента: {group}\n\nВыберите специализацию студента\n1 - ИСИТ\n2 - ИБ\n3 - ИВТ\n4 - ПИ");
                                         if (Int32.TryParse(Console.ReadLine(), out int codeSpeciality) && codeSpeciality > 0 && codeSpeciality < 5)
                                         {
                                             switch (codeSpeciality)
@@ -152,6 +152,7 @@ namespace aislab1
                                                     Console.WriteLine("Введите новое ФИО студента");
                                                     string studentNewName = Console.ReadLine();
 
+                                                    Console.WriteLine($"ФИО студента {codeChangedStudent} изменено на {studentNewName}\n");
                                                     UpdateStudent(codeChangedStudent, studentNewName, "", "");
                                                     break;
 
@@ -159,11 +160,12 @@ namespace aislab1
                                                     Console.WriteLine("Введите новую группу студента");
                                                     string studentNewGroup = Console.ReadLine();
 
+                                                    Console.WriteLine($"Группа студента {codeChangedStudent} изменена на {studentNewGroup}\n");
                                                     UpdateStudent(codeChangedStudent, "", studentNewGroup, "");
                                                     break;
 
                                                 case 3:
-                                                    Console.WriteLine("Введите новую специальность студента (ИСИТ, ИБ, ИВТ, ПИ)");
+                                                    Console.WriteLine("Введите новую специальность студента\n1 - ИСИТ\n2 - ИБ\n3 - ИВТ\n4 - ПИ\n");
                                                     bool correctNewSpeciality = false;
                                                     while (!correctNewSpeciality)
                                                     {
@@ -173,18 +175,22 @@ namespace aislab1
                                                             {
                                                                 case 1:
                                                                     UpdateStudent(codeChangedStudent, "", "", "ИСИТ");
+                                                                    Console.WriteLine($"Специальность студента {codeChangedStudent} изменена на ИСИТ\n");
                                                                     correctNewSpeciality = true;
                                                                     break;
                                                                 case 2:
                                                                     UpdateStudent(codeChangedStudent, "", "", "ИБ");
+                                                                    Console.WriteLine($"Специальность студента {codeChangedStudent} изменена на ИБ\n");
                                                                     correctNewSpeciality = true;
                                                                     break;
                                                                 case 3:
                                                                     UpdateStudent(codeChangedStudent, "", "", "ИВТ");
+                                                                    Console.WriteLine($"Специальность студента {codeChangedStudent} изменена на ИВТ\n");
                                                                     correctNewSpeciality = true;
                                                                     break;
                                                                 case 4:
                                                                     UpdateStudent(codeChangedStudent, "", "", "ПИ");
+                                                                    Console.WriteLine($"Специальность студента {codeChangedStudent} изменена на ПИ\n");
                                                                     correctNewSpeciality = true;
                                                                     break;
                                                             }

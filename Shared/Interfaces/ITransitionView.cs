@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shared
 {
-    public interface ITransitionView : IView
+    public interface ITransitionView : IView // Интерфейс для переключаемых вьюшек
     {
         /// <summary>
         /// Событие переключения между вьюшками

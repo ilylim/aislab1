@@ -12,7 +12,7 @@ namespace WinFormsApp
     {
         public override void Load()
         {
-            Bind<IMainWinFormsView>().To<StartForm>().InSingletonScope();
+            Bind<IMainView>().To<StartForm>().InSingletonScope();
         }
     }
 }

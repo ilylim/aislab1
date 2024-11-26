@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shared
 {
-    public interface IStarter
+    public interface IStarter // Интерфейс стартеров
     {
         IView View { get; set; }
         /// <summary>

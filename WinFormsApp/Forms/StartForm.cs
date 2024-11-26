@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace WinFormsApp
 {
-    public partial class StartForm : Form, IView, IDeleteView, ITransitionView, IMainWinFormsView
+    public partial class StartForm : Form, IView, IDeleteView, ITransitionView, IMainView
     {
         public IAddView addView { get; set; }
         public IUpdateView updateView { get; set; }

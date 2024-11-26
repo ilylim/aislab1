@@ -18,7 +18,7 @@ namespace Presenter
         {
             // WinForms views
             IKernel ninjectKernelWinFormsView = new StandardKernel(new WinFormsViewConfigModule());
-            var startForm = ninjectKernelWinFormsView.Get<IMainWinFormsView>();
+            var startForm = ninjectKernelWinFormsView.Get<IMainView>();
 
             // Console view
             IKernel ninjectKernelConsoleView = new StandardKernel(new ConsoleViewConfigModule());
@@ -33,10 +33,13 @@ namespace Presenter
             IStarter consoleStarter = new aislab1.Starter(consoleView);
 
             // Presenters
-            StudentConsolePresenter consolePresenter = new StudentConsolePresenter(consoleView, studentsManager);
-            StudentAddPresenter addStudentPresenter = new StudentAddPresenter(startForm.addView, studentsManager);
-            StudentDeletePresenter deleteStudentPresenter = new StudentDeletePresenter(startForm.deleteView, studentsManager);
-            StudentUpdatePresenter updateStudentPresenter = new StudentUpdatePresenter(startForm.updateView, studentsManager);
+            StudentAddPresenter consoleAddStudentPresenter = new StudentAddPresenter(consoleView, studentsManager);
+            StudentDeletePresenter consoleDeleteStudentPresenter = new StudentDeletePresenter(consoleView, studentsManager);
+            StudentUpdatePresenter consoleUpdateStudentPresenter = new StudentUpdatePresenter(consoleView, studentsManager);
+
+            StudentAddPresenter winFormsAddStudentPresenter = new StudentAddPresenter(startForm.addView, studentsManager);
+            StudentDeletePresenter winFormsDeleteStudentPresenter = new StudentDeletePresenter(startForm.deleteView, studentsManager);
+            StudentUpdatePresenter winFormsUpdateStudentPresenter = new StudentUpdatePresenter(startForm.updateView, studentsManager);
 
             // Transfer for change views
             TransferConsoleWinForms transferViews = new TransferConsoleWinForms(consoleStarter, winFormsStarter);

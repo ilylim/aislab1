@@ -3,8 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|solutionrelative:aislab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\consoleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|solutionrelative:aislab1\\consoleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\consoleviewconfigmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|solutionrelative:aislab1\\consoleviewconfigmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\shared\\interfaces\\iview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|solutionrelative:shared\\interfaces\\iview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\shared\\interfaces\\itransitionview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|solutionrelative:shared\\interfaces\\itransitionview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\shared\\interfaces\\ideleteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|solutionrelative:shared\\interfaces\\ideleteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\shared\\interfaces\\iconsoleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|solutionrelative:shared\\interfaces\\iconsoleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\presenter\\studentpresenters\\studentupdatepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|solutionrelative:presenter\\studentpresenters\\studentupdatepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F202038-508E-4B4B-9E82-1AF73EC19903}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\dataaccesslayer\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F202038-508E-4B4B-9E82-1AF73EC19903}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD544880-28F1-42FD-95FE-B3EA2FE2EAC6}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\businesslogic\\interfaces\\imanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD544880-28F1-42FD-95FE-B3EA2FE2EAC6}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\interfaces\\imanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD544880-28F1-42FD-95FE-B3EA2FE2EAC6}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\businesslogic\\managers\\studentsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD544880-28F1-42FD-95FE-B3EA2FE2EAC6}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\managers\\studentsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD544880-28F1-42FD-95FE-B3EA2FE2EAC6}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\businesslogic\\businesslogicconfigmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD544880-28F1-42FD-95FE-B3EA2FE2EAC6}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\businesslogicconfigmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\presenter\\studentpresenters\\studentdeletepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|solutionrelative:presenter\\studentpresenters\\studentdeletepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\presenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|solutionrelative:presenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|c:\\users\\\u0441\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\presenter\\studentpresenters\\studentaddpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|solutionrelative:presenter\\studentpresenters\\studentaddpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\winformsapp\\forms\\startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\forms\\startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\shared\\interfaces\\imainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|solutionrelative:shared\\interfaces\\imainview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\shared\\interfaces\\istarter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|solutionrelative:shared\\interfaces\\istarter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\winformsapp\\forms\\startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +87,8 @@
       "RelativeMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\shared\\interfaces\\imainwinformsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|solutionrelative:shared\\interfaces\\imainwinformsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|solutionrelative:aislab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\winformsapp\\forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\winformsapp\\forms\\startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{55D54A16-D5D0-4B41-A3B1-84CBB9C5BD23}|WinFormsApp\\WinFormsApp.csproj|solutionrelative:winformsapp\\forms\\startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\presenter\\transfers\\transferconsolewinforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,44 +99,8 @@
       "RelativeMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|solutionrelative:presenter\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\presenter\\studentpresenters\\studentconsolepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|solutionrelative:presenter\\studentpresenters\\studentconsolepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\presenter\\studentpresenters\\studentdeletepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD1F2AD-01C7-49DB-B4CC-DECDF0371770}|Presenter\\Presenter.csproj|solutionrelative:presenter\\studentpresenters\\studentdeletepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD544880-28F1-42FD-95FE-B3EA2FE2EAC6}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\businesslogic\\managers\\studentsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD544880-28F1-42FD-95FE-B3EA2FE2EAC6}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\managers\\studentsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\consoleviewconfigmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|solutionrelative:aislab1\\consoleviewconfigmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD544880-28F1-42FD-95FE-B3EA2FE2EAC6}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\businesslogic\\businesslogicconfigmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD544880-28F1-42FD-95FE-B3EA2FE2EAC6}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\businesslogicconfigmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\consoleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C0674C1-D363-4753-84FF-8A14AC781862}|aislab1\\ConsoleApp.csproj|solutionrelative:aislab1\\consoleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\shared\\content\\net40\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|solutionrelative:shared\\content\\net40\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\shared\\interfaces\\iconsoleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|solutionrelative:shared\\interfaces\\iconsoleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\shared\\interfaces\\itransitionview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|solutionrelative:shared\\interfaces\\itransitionview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\shared\\interfaces\\istarter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{155B0437-BD1A-45B5-843D-8B9DEDCCE335}|Shared\\Shared.csproj|solutionrelative:shared\\interfaces\\istarter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ConsoleApp||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
@@ -141,7 +161,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -185,79 +205,238 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddStudentForm.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\AddStudentForm.cs",
-              "RelativeDocumentMoniker": "WinFormsApp\\Forms\\AddStudentForm.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\AddStudentForm.cs",
-              "RelativeToolTip": "WinFormsApp\\Forms\\AddStudentForm.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAowHgAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IView.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IView.cs",
+              "RelativeDocumentMoniker": "Shared\\Interfaces\\IView.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IView.cs",
+              "RelativeToolTip": "Shared\\Interfaces\\IView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T06:18:14.004Z"
+              "WhenOpened": "2024-11-26T07:20:50.225Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\Program.cs",
-              "RelativeDocumentMoniker": "aislab1\\Program.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\Program.cs",
-              "RelativeToolTip": "aislab1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ITransitionView.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\ITransitionView.cs",
+              "RelativeDocumentMoniker": "Shared\\Interfaces\\ITransitionView.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\ITransitionView.cs",
+              "RelativeToolTip": "Shared\\Interfaces\\ITransitionView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T16:19:20.962Z"
+              "WhenOpened": "2024-11-20T06:08:56.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleView.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\ConsoleView.cs",
+              "RelativeDocumentMoniker": "aislab1\\ConsoleView.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\ConsoleView.cs",
+              "RelativeToolTip": "aislab1\\ConsoleView.cs",
+              "ViewState": "AgIAACoBAAAAAAAAAAAYwA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T06:09:08.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsoleViewConfigModule.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\ConsoleViewConfigModule.cs",
+              "RelativeDocumentMoniker": "aislab1\\ConsoleViewConfigModule.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\ConsoleViewConfigModule.cs",
+              "RelativeToolTip": "aislab1\\ConsoleViewConfigModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T11:11:07.027Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\Program.cs",
+              "RelativeDocumentMoniker": "aislab1\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\Program.cs",
+              "RelativeToolTip": "aislab1\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T16:19:20.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDeleteView.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IDeleteView.cs",
+              "RelativeDocumentMoniker": "Shared\\Interfaces\\IDeleteView.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IDeleteView.cs",
+              "RelativeToolTip": "Shared\\Interfaces\\IDeleteView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:21:21.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IConsoleView.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IConsoleView.cs",
+              "RelativeDocumentMoniker": "Shared\\Interfaces\\IConsoleView.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IConsoleView.cs",
+              "RelativeToolTip": "Shared\\Interfaces\\IConsoleView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T06:10:27.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\DataAccessLayer\\IRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\IRepository.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\DataAccessLayer\\IRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:20:29.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentsManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\BusinessLogic\\Managers\\StudentsManager.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Managers\\StudentsManager.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\BusinessLogic\\Managers\\StudentsManager.cs",
+              "RelativeToolTip": "BusinessLogic\\Managers\\StudentsManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T13:57:42.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentUpdatePresenter.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\StudentPresenters\\StudentUpdatePresenter.cs",
+              "RelativeDocumentMoniker": "Presenter\\StudentPresenters\\StudentUpdatePresenter.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\StudentPresenters\\StudentUpdatePresenter.cs",
+              "RelativeToolTip": "Presenter\\StudentPresenters\\StudentUpdatePresenter.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:11:20.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BusinessLogicConfigModule.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\BusinessLogic\\BusinessLogicConfigModule.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\BusinessLogicConfigModule.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\BusinessLogic\\BusinessLogicConfigModule.cs",
+              "RelativeToolTip": "BusinessLogic\\BusinessLogicConfigModule.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T15:40:17.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentDeletePresenter.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\StudentPresenters\\StudentDeletePresenter.cs",
+              "RelativeDocumentMoniker": "Presenter\\StudentPresenters\\StudentDeletePresenter.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\StudentPresenters\\StudentDeletePresenter.cs",
+              "RelativeToolTip": "Presenter\\StudentPresenters\\StudentDeletePresenter.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T15:44:10.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\Program.cs",
               "RelativeDocumentMoniker": "Presenter\\Program.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\Program.cs*",
-              "RelativeToolTip": "Presenter\\Program.cs*",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAewC4AAAAnAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\Program.cs",
+              "RelativeToolTip": "Presenter\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswCgAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T19:17:56.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
+              "Title": "IManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\BusinessLogic\\Interfaces\\IManager.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Interfaces\\IManager.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\BusinessLogic\\Interfaces\\IManager.cs",
+              "RelativeToolTip": "BusinessLogic\\Interfaces\\IManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwBoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:50:16.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentAddPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\StudentPresenters\\StudentAddPresenter.cs",
+              "RelativeDocumentMoniker": "Presenter\\StudentPresenters\\StudentAddPresenter.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\StudentPresenters\\StudentAddPresenter.cs",
+              "RelativeToolTip": "Presenter\\StudentPresenters\\StudentAddPresenter.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:17:18.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "StartForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\StartForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp\\Forms\\StartForm.cs",
               "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\StartForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "WinFormsApp\\Forms\\StartForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T15:18:41.945Z"
+              "WhenOpened": "2024-11-23T15:18:41.945Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StartForm.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\StartForm.cs",
-              "RelativeDocumentMoniker": "WinFormsApp\\Forms\\StartForm.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\StartForm.cs",
-              "RelativeToolTip": "WinFormsApp\\Forms\\StartForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "IStarter.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IStarter.cs",
+              "RelativeDocumentMoniker": "Shared\\Interfaces\\IStarter.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IStarter.cs",
+              "RelativeToolTip": "Shared\\Interfaces\\IStarter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T06:15:29.465Z"
+              "WhenOpened": "2024-11-20T06:09:18.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WinFormsViewConfigModule.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\WinFormsViewConfigModule.cs",
-              "RelativeDocumentMoniker": "WinFormsApp\\WinFormsViewConfigModule.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\WinFormsViewConfigModule.cs",
-              "RelativeToolTip": "WinFormsApp\\WinFormsViewConfigModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "IMainView.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IMainView.cs",
+              "RelativeDocumentMoniker": "Shared\\Interfaces\\IMainView.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IMainView.cs",
+              "RelativeToolTip": "Shared\\Interfaces\\IMainView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T11:16:55.099Z"
+              "WhenOpened": "2024-11-24T11:38:43.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Program.cs",
               "RelativeDocumentMoniker": "WinFormsApp\\Program.cs",
@@ -269,19 +448,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IMainWinFormsView.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IMainWinFormsView.cs",
-              "RelativeDocumentMoniker": "Shared\\Interfaces\\IMainWinFormsView.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IMainWinFormsView.cs",
-              "RelativeToolTip": "Shared\\Interfaces\\IMainWinFormsView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "WinFormsViewConfigModule.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\WinFormsViewConfigModule.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\WinFormsViewConfigModule.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\WinFormsViewConfigModule.cs",
+              "RelativeToolTip": "WinFormsApp\\WinFormsViewConfigModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T11:38:43.002Z"
+              "WhenOpened": "2024-11-24T11:16:55.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
+              "Title": "StartForm.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\StartForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\Forms\\StartForm.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\StartForm.cs",
+              "RelativeToolTip": "WinFormsApp\\Forms\\StartForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T06:15:29.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\AddStudentForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp\\Forms\\AddStudentForm.cs",
+              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\AddStudentForm.cs",
+              "RelativeToolTip": "WinFormsApp\\Forms\\AddStudentForm.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAowHgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T06:18:14.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "TransferConsoleWinForms.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\Transfers\\TransferConsoleWinForms.cs",
               "RelativeDocumentMoniker": "Presenter\\Transfers\\TransferConsoleWinForms.cs",
@@ -293,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\App.config",
               "RelativeDocumentMoniker": "Presenter\\App.config",
@@ -306,67 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StudentDeletePresenter.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\StudentPresenters\\StudentDeletePresenter.cs",
-              "RelativeDocumentMoniker": "Presenter\\StudentPresenters\\StudentDeletePresenter.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\StudentPresenters\\StudentDeletePresenter.cs",
-              "RelativeToolTip": "Presenter\\StudentPresenters\\StudentDeletePresenter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T15:44:10.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StudentConsolePresenter.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\StudentPresenters\\StudentConsolePresenter.cs",
-              "RelativeDocumentMoniker": "Presenter\\StudentPresenters\\StudentConsolePresenter.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\StudentPresenters\\StudentConsolePresenter.cs",
-              "RelativeToolTip": "Presenter\\StudentPresenters\\StudentConsolePresenter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T15:27:22.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "StudentsManager.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\BusinessLogic\\Managers\\StudentsManager.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\Managers\\StudentsManager.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\BusinessLogic\\Managers\\StudentsManager.cs",
-              "RelativeToolTip": "BusinessLogic\\Managers\\StudentsManager.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAIwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T13:57:42.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ConsoleViewConfigModule.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\ConsoleViewConfigModule.cs",
-              "RelativeDocumentMoniker": "aislab1\\ConsoleViewConfigModule.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\ConsoleViewConfigModule.cs",
-              "RelativeToolTip": "aislab1\\ConsoleViewConfigModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T11:11:07.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BusinessLogicConfigModule.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\BusinessLogic\\BusinessLogicConfigModule.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\BusinessLogicConfigModule.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\BusinessLogic\\BusinessLogicConfigModule.cs",
-              "RelativeToolTip": "BusinessLogic\\BusinessLogicConfigModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T15:40:17.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\content\\net40\\App.config",
               "RelativeDocumentMoniker": "Shared\\content\\net40\\App.config",
@@ -378,55 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ConsoleView.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\ConsoleView.cs",
-              "RelativeDocumentMoniker": "aislab1\\ConsoleView.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\ConsoleView.cs",
-              "RelativeToolTip": "aislab1\\ConsoleView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T06:09:08.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IStarter.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IStarter.cs",
-              "RelativeDocumentMoniker": "Shared\\Interfaces\\IStarter.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IStarter.cs",
-              "RelativeToolTip": "Shared\\Interfaces\\IStarter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T06:09:18.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ITransitionView.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\ITransitionView.cs",
-              "RelativeDocumentMoniker": "Shared\\Interfaces\\ITransitionView.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\ITransitionView.cs",
-              "RelativeToolTip": "Shared\\Interfaces\\ITransitionView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T06:08:56.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IConsoleView.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IConsoleView.cs",
-              "RelativeDocumentMoniker": "Shared\\Interfaces\\IConsoleView.cs",
-              "ToolTip": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Shared\\Interfaces\\IConsoleView.cs",
-              "RelativeToolTip": "Shared\\Interfaces\\IConsoleView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T06:10:27.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "ConsoleApp",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\ConsoleApp.csproj",
               "RelativeDocumentMoniker": "aislab1\\ConsoleApp.csproj",
@@ -437,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\App.config",
               "RelativeDocumentMoniker": "WinFormsApp\\App.config",
@@ -450,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "StartForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\StartForm.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp\\Forms\\StartForm.Designer.cs",
@@ -458,11 +554,12 @@
               "RelativeToolTip": "WinFormsApp\\Forms\\StartForm.Designer.cs",
               "ViewState": "AgIAAJEAAAAAAAAAAAAvwKIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T14:59:11.661Z"
+              "WhenOpened": "2024-11-23T14:59:11.661Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "ChangeStudentForm.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\ChangeStudentForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp\\Forms\\ChangeStudentForm.cs",
@@ -474,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "AddStudentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\AddStudentForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp\\Forms\\AddStudentForm.cs",
@@ -485,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "ChangeStudentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\Forms\\ChangeStudentForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp\\Forms\\ChangeStudentForm.cs",
@@ -496,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "EntityRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\DataAccessLayer\\EF\\EntityRepository.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\EF\\EntityRepository.cs",
@@ -508,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\aislab1\\content\\net40\\App.config",
               "RelativeDocumentMoniker": "aislab1\\content\\net40\\App.config",
@@ -520,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Entities\\content\\net40\\App.config",
               "RelativeDocumentMoniker": "Entities\\content\\net40\\App.config",
@@ -532,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\Presenter\\content\\net40\\App.config",
               "RelativeDocumentMoniker": "Presenter\\content\\net40\\App.config",
@@ -544,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\DataAccessLayer\\content\\net40\\App.config",
               "RelativeDocumentMoniker": "DataAccessLayer\\content\\net40\\App.config",
@@ -556,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\WinFormsApp\\content\\net40\\App.config",
               "RelativeDocumentMoniker": "WinFormsApp\\content\\net40\\App.config",
@@ -568,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\\u0421\u0435\u0440\u0433\u0435\u0439\\source\\repos\\aislab1\\DataAccessLayer\\App.config",
               "RelativeDocumentMoniker": "DataAccessLayer\\App.config",
@@ -576,7 +673,8 @@
               "RelativeToolTip": "DataAccessLayer\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-23T14:06:49.204Z"
+              "WhenOpened": "2024-11-23T14:06:49.204Z",
+              "EditorCaption": ""
             }
           ]
         }

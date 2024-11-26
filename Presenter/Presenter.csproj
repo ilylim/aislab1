@@ -104,7 +104,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StudentPresenters\StudentAddPresenter.cs" />
-    <Compile Include="StudentPresenters\StudentConsolePresenter.cs" />
     <Compile Include="StudentPresenters\StudentDeletePresenter.cs" />
     <Compile Include="StudentPresenters\StudentUpdatePresenter.cs" />
     <Compile Include="Transfers\TransferConsoleWinForms.cs" />
